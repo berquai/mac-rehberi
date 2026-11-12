@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="tr" data-theme="auto">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Maç Rehberi</title>
+  <meta name="description" content="Türkiye üst ligleri, Şampiyonlar Ligi ve A milli maçların yayın rehberi.">
+  <meta name="theme-color" content="#0f172a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Maç Rehberi">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon-180.png">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    // Tema ve yazı boyutunu ilk boyamadan önce uygula (yanıp sönmeyi önler)
+    try {
+      document.documentElement.dataset.theme = localStorage.getItem("mr-theme") || "auto";
+      document.documentElement.dataset.size = localStorage.getItem("mr-size") || "normal";
+    } catch (e) {}
+  </script>
+</head>
+<body>
+  <div class="sticky">
+  <header class="top">
+    <div class="brand">
+      <span class="logo" aria-hidden="true">📺</span>
+      <div>
+        <h1>Maç Rehberi</h1>
+        <p class="sub" id="updated">Yükleniyor…</p>
+      </div>
+    </div>
+    <div class="actions">
+      <button class="icon-btn" id="btn-refresh" aria-label="Yenile" title="Yenile">↻</button>
+      <button class="icon-btn" id="btn-theme" aria-label="Tema" title="Tema ve yazı boyutu">🎨</button>
+      <button class="icon-btn" id="btn-about" aria-label="Hakkında" title="Hakkında">ℹ️</button>
+    </div>
+  </header>
+
+  <nav class="tabs" role="tablist">
+    <button role="tab" data-view="today" aria-selected="true">Sonraki 24 Saat</button>
+    <button role="tab" data-view="week" aria-selected="false">7 Gün</button>
+    <button role="tab" data-view="results" aria-selected="false">Sonuçlar</button>
+  </nav>
+  </div>
+
+  <section class="filters" id="filters" hidden>
+    <div class="chips" id="sport-chips">
+      <button class="chip" data-sport="all" aria-pressed="true">Tümü</button>
+      <button class="chip" data-sport="football" aria-pressed="false">⚽ Futbol</button>
+      <button class="chip" data-sport="basketball" aria-pressed="false">🏀 Basketbol</button>
+      <button class="chip" data-sport="volleyball" aria-pressed="false">🏐 Voleybol</button>
+    </div>
+    <select id="league-select" aria-label="Lig"><option value="all">Tüm ligler</option></select>
+  </section>
+
+  <main id="list" aria-live="polite"></main>
+
+  <footer class="foot">
+    <p><strong>Berkay Çelik</strong> tarafından hazırlanmıştır.</p>
+    <p class="muted" id="foot-updated"></p>
+  </footer>
+
+  <!-- Tema paneli -->
+  <dialog id="dlg-theme" class="sheet">
+    <form method="dialog">
+      <h2>Tema</h2>
+      <div class="theme-grid" id="theme-grid"></div>
+      <h2>Yazı boyutu</h2>
+      <div class="chips" id="size-chips">
+        <button type="button" class="chip" data-size="small">Küçük</button>
+        <button type="button" class="chip" data-size="normal">Normal</button>
+        <button type="button" class="chip" data-size="large">Büyük</button>
+      </div>
+      <button class="close" value="close">Kapat</button>
+    </form>
+  </dialog>
+
+  <!-- Hakkında -->
+  <dialog id="dlg-about" class="sheet">
+    <form method="dialog">
+      <h2>Hakkında</h2>
+      <p><strong>Maç Rehberi</strong> — Türkiye üst ligleri, Şampiyonlar Ligi ve A milli takım maçlarının hangi kanalda, hangi platformda, ne zaman yayınlanacağını gösteren kişisel yayın rehberi.</p>
+      <h3>Kapsam</h3>
+      <ul class="scope">
+        <li><b>⚽ Futbol (erkek):</b> Trendyol Süper Lig, UEFA Şampiyonlar Ligi, A Milli Takım resmi maçları</li>
+        <li><b>🏀 Basketbol:</b> Basketbol Süper Ligi, Kadınlar Basketbol Süper Ligi, FIBA Şampiyonlar Ligi, A Milli Kadın ve Erkek resmi maçları</li>
+        <li><b>🏐 Voleybol:</b> Efeler Ligi, Sultanlar Ligi, CEV Şampiyonlar Ligi (kadın ve erkek), A Milli Kadın ve Erkek resmi maçları</li>
+      </ul>
+      <p class="muted">Hazırlık, dostluk ve gösteri maçları ile genç milli takımlar dahil değildir.</p>
+      <h3>Veri</h3>
+      <ul class="scope">
+        <li>Veriler yaklaşık 30 dakikada bir otomatik güncellenir.</li>
+        <li>Yayın bilgisi: Spor Ekranı (sporekrani.com)</li>
+        <li>Futbol skorları: ESPN (basketbol ve voleybolda skor gösterilmez)</li>
+        <li>Sonuçlar, maçın oynandığı günün ertesi günü bitince (00:00) listeden kalkar.</li>
+        <li>Saatler Türkiye saatidir.</li>
+      </ul>
+      <p class="muted">Kişisel kullanım içindir. Yayın hakları ilgili kuruluşlara aittir.</p>
+      <p class="muted">Berkay Çelik tarafından hazırlanmıştır · Sürüm <span id="version"></span></p>
+      <button class="close" value="close">Kapat</button>
+    </form>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>

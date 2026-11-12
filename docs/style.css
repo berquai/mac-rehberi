@@ -1,0 +1,194 @@
+/* ============================================================ Temalar */
+:root, [data-theme="light"] {
+  --bg: #f4f5f7; --surface: #ffffff; --surface-2: #eef0f3; --text: #111827; --muted: #6b7280;
+  --border: #e3e6ea; --accent: #2563eb; --accent-text: #ffffff; --live: #dc2626; --win: #15803d;
+  --head: #0f172a; --head-text: #ffffff;
+}
+[data-theme="dark"] {
+  --bg: #0f1115; --surface: #181b21; --surface-2: #22262e; --text: #e8eaed; --muted: #9aa0a8;
+  --border: #2b3038; --accent: #60a5fa; --accent-text: #0b1220; --live: #f87171; --win: #4ade80;
+  --head: #0b0d11; --head-text: #e8eaed;
+}
+@media (prefers-color-scheme: dark) {
+  [data-theme="auto"] {
+    --bg: #0f1115; --surface: #181b21; --surface-2: #22262e; --text: #e8eaed; --muted: #9aa0a8;
+    --border: #2b3038; --accent: #60a5fa; --accent-text: #0b1220; --live: #f87171; --win: #4ade80;
+    --head: #0b0d11; --head-text: #e8eaed;
+  }
+}
+[data-theme="midnight"] {
+  --bg: #000000; --surface: #0a0a0a; --surface-2: #141414; --text: #f2f2f2; --muted: #8a8a8a;
+  --border: #1f1f1f; --accent: #a78bfa; --accent-text: #000; --live: #ff4d4d; --win: #4ade80;
+  --head: #000000; --head-text: #f2f2f2;
+}
+[data-theme="stadium"] {
+  --bg: #0d2818; --surface: #133a23; --surface-2: #1a4a2e; --text: #ecfdf3; --muted: #a7cdb6;
+  --border: #22593a; --accent: #facc15; --accent-text: #1a1a00; --live: #ff6b6b; --win: #bbf7d0;
+  --head: #082012; --head-text: #ecfdf3;
+}
+[data-theme="parquet"] {
+  --bg: #f6ead8; --surface: #fff8ee; --surface-2: #f1dfc4; --text: #3b2412; --muted: #8a6748;
+  --border: #e6cfae; --accent: #ea580c; --accent-text: #fff; --live: #b91c1c; --win: #166534;
+  --head: #7c3a12; --head-text: #fff4e6;
+}
+[data-theme="sand"] {
+  --bg: #f3ecdc; --surface: #fffaf0; --surface-2: #ece2cb; --text: #1f2d3d; --muted: #6b7a8a;
+  --border: #e2d6ba; --accent: #0284c7; --accent-text: #fff; --live: #dc2626; --win: #15803d;
+  --head: #0369a1; --head-text: #fffaf0;
+}
+[data-theme="claret"] {
+  --bg: #f4f0f3; --surface: #ffffff; --surface-2: #efe5ec; --text: #2a0f1d; --muted: #7b5b6b;
+  --border: #e5d5df; --accent: #1e5bb8; --accent-text: #fff; --live: #c81e3a; --win: #15803d;
+  --head: #7a1035; --head-text: #ffffff;
+}
+[data-theme="yellownavy"] {
+  --bg: #0e1a3a; --surface: #15244d; --surface-2: #1d2f5e; --text: #fdf8e1; --muted: #b6bed6;
+  --border: #283c72; --accent: #fcd116; --accent-text: #0e1a3a; --live: #ff6b6b; --win: #86efac;
+  --head: #0a1430; --head-text: #fcd116;
+}
+[data-theme="yellowred"] {
+  --bg: #fff7e0; --surface: #ffffff; --surface-2: #ffefc2; --text: #3a0a0a; --muted: #8a5a3a;
+  --border: #f5dc9a; --accent: #c8102e; --accent-text: #fff; --live: #c8102e; --win: #15803d;
+  --head: #a90f26; --head-text: #fdb912;
+}
+[data-theme="blackwhite"] {
+  --bg: #ffffff; --surface: #ffffff; --surface-2: #f0f0f0; --text: #000000; --muted: #555555;
+  --border: #d4d4d4; --accent: #000000; --accent-text: #ffffff; --live: #000000; --win: #000000;
+  --head: #000000; --head-text: #ffffff;
+}
+[data-theme="redwhite"] {
+  --bg: #fff5f5; --surface: #ffffff; --surface-2: #ffe4e4; --text: #2b0606; --muted: #8b4a4a;
+  --border: #f6cfcf; --accent: #d71920; --accent-text: #fff; --live: #d71920; --win: #15803d;
+  --head: #d71920; --head-text: #ffffff;
+}
+[data-theme="contrast"] {
+  --bg: #000000; --surface: #000000; --surface-2: #1a1a1a; --text: #ffffff; --muted: #ffff00;
+  --border: #ffffff; --accent: #ffff00; --accent-text: #000000; --live: #ff3b3b; --win: #00ff6a;
+  --head: #000000; --head-text: #ffff00;
+}
+
+/* ============================================================ Yazı boyutu */
+html { font-size: 16px; }
+html[data-size="small"] { font-size: 14px; }
+html[data-size="large"] { font-size: 18.5px; }
+
+/* ============================================================ Temel */
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  background: var(--bg); color: var(--text);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.4; -webkit-text-size-adjust: 100%;
+  min-height: 100vh; display: flex; flex-direction: column;
+}
+button, select { font: inherit; color: inherit; }
+.muted { color: var(--muted); }
+
+/* ============================================================ Üst bar */
+.sticky { position: sticky; top: 0; z-index: 5; }
+.top {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  padding: calc(10px + env(safe-area-inset-top)) 16px 10px;
+  background: var(--head); color: var(--head-text);
+}
+.brand { display: flex; align-items: center; gap: 10px; min-width: 0; }
+.logo { font-size: 1.6rem; }
+.brand h1 { font-size: 1.15rem; margin: 0; letter-spacing: .2px; }
+.sub { margin: 0; font-size: .75rem; opacity: .75; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.actions { display: flex; gap: 4px; }
+.icon-btn {
+  background: transparent; border: 0; color: inherit; font-size: 1.15rem;
+  width: 40px; height: 40px; border-radius: 10px; cursor: pointer;
+}
+.icon-btn:hover, .icon-btn:focus-visible { background: rgba(255,255,255,.12); }
+.icon-btn.spin { animation: spin .8s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* ============================================================ Sekmeler */
+.tabs {
+  display: grid; grid-template-columns: repeat(3, 1fr);
+  background: var(--surface); border-bottom: 1px solid var(--border);
+}
+.tabs button {
+  background: none; border: 0; padding: 12px 6px; cursor: pointer; font-weight: 600; font-size: .9rem;
+  color: var(--muted); border-bottom: 3px solid transparent;
+}
+.tabs button[aria-selected="true"] { color: var(--text); border-bottom-color: var(--accent); }
+
+/* ============================================================ Filtreler */
+.filters { padding: 10px 16px 0; display: flex; flex-direction: column; gap: 8px; max-width: 760px; margin: 0 auto; width: 100%; }
+.filters[hidden] { display: none; }
+.chips { display: flex; gap: 6px; flex-wrap: wrap; }
+.chip {
+  border: 1px solid var(--border); background: var(--surface); padding: 6px 12px;
+  border-radius: 999px; cursor: pointer; font-size: .85rem;
+}
+.chip[aria-pressed="true"] { background: var(--accent); color: var(--accent-text); border-color: var(--accent); }
+select {
+  width: 100%; padding: 8px 10px; border-radius: 10px; border: 1px solid var(--border);
+  background: var(--surface); font-size: .9rem;
+}
+
+/* ============================================================ Liste */
+main { flex: 1; width: 100%; max-width: 760px; margin: 0 auto; padding: 8px 16px 16px; }
+.day {
+  margin: 14px -16px 6px; padding: 6px 16px; font-size: .8rem; font-weight: 700;
+  text-transform: uppercase; letter-spacing: .5px; color: var(--muted); background: var(--bg);
+}
+.empty { text-align: center; color: var(--muted); padding: 48px 12px; }
+.empty .big { font-size: 2.4rem; display: block; margin-bottom: 8px; }
+
+.card {
+  display: grid; grid-template-columns: 58px 1fr; gap: 10px;
+  background: var(--surface); border: 1px solid var(--border); border-radius: 14px;
+  padding: 10px 12px; margin: 8px 0;
+}
+.card.live { border-color: var(--live); box-shadow: 0 0 0 1px var(--live) inset; }
+.time { text-align: center; border-right: 1px solid var(--border); padding-right: 8px; }
+.time .hm { font-size: 1.15rem; font-weight: 800; font-variant-numeric: tabular-nums; }
+.time .d { font-size: .7rem; color: var(--muted); }
+.time .ic { font-size: 1.2rem; margin-top: 2px; }
+.meta { font-size: .72rem; color: var(--muted); display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+.tag { padding: 1px 6px; border-radius: 6px; background: var(--surface-2); font-weight: 600; }
+.tag.live { background: var(--live); color: #fff; animation: pulse 1.6s ease-in-out infinite; }
+@keyframes pulse { 50% { opacity: .55; } }
+.teams { font-weight: 700; font-size: 1rem; margin: 2px 0 4px; display: grid; grid-template-columns: 1fr auto; gap: 2px 10px; }
+.teams .sc { font-variant-numeric: tabular-nums; text-align: right; }
+.teams .w { color: var(--win); }
+.ch { font-size: .85rem; margin-top: 4px; }
+.ch b { color: var(--accent); }
+[data-theme="blackwhite"] .ch b, [data-theme="contrast"] .ch b { text-decoration: underline; }
+.ch .pl { color: var(--muted); font-size: .76rem; }
+.noch { font-size: .8rem; color: var(--muted); font-style: italic; }
+
+/* ============================================================ Alt bilgi */
+.foot { text-align: center; padding: 18px 16px calc(18px + env(safe-area-inset-bottom)); font-size: .82rem; border-top: 1px solid var(--border); }
+.foot p { margin: 2px 0; }
+
+/* ============================================================ Paneller */
+dialog.sheet {
+  border: 0; padding: 0; width: min(560px, 100vw); max-height: 88vh; margin: auto auto 0;
+  border-radius: 18px 18px 0 0; background: var(--surface); color: var(--text);
+}
+@media (min-width: 600px) { dialog.sheet { margin: auto; border-radius: 18px; } }
+dialog::backdrop { background: rgba(0,0,0,.5); }
+dialog form { padding: 18px 16px calc(18px + env(safe-area-inset-bottom)); }
+dialog h2 { font-size: 1.05rem; margin: 4px 0 10px; }
+dialog h3 { font-size: .95rem; margin: 14px 0 6px; }
+.scope { padding-left: 18px; margin: 4px 0; font-size: .9rem; }
+.scope li { margin: 4px 0; }
+.theme-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 8px; margin-bottom: 14px; }
+.swatch {
+  display: flex; align-items: center; gap: 8px; padding: 8px; border-radius: 12px; cursor: pointer;
+  /* Her düğme kendi data-theme'i sayesinde o temanın renkleriyle önizlenir */
+  border: 2px solid var(--border); background: var(--bg); color: var(--text); text-align: left; font-size: .85rem;
+}
+.swatch[aria-pressed="true"] { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent); }
+.swatch .dots { display: flex; flex-shrink: 0; }
+.swatch .dots i { width: 14px; height: 22px; display: block; }
+.swatch .dots i:first-child { border-radius: 6px 0 0 6px; }
+.swatch .dots i:last-child { border-radius: 0 6px 6px 0; }
+.close {
+  width: 100%; margin-top: 16px; padding: 12px; border-radius: 12px; border: 0; cursor: pointer;
+  background: var(--accent); color: var(--accent-text); font-weight: 700;
+}
