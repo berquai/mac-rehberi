@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-13T10:10:01+03:00",
+ "generated_at": "2026-11-13T11:34:14+03:00",
  "matches": [
   {
    "id": "se494504",
@@ -486,15 +486,35 @@
    "start": "2026-11-15T13:00:00+03:00",
    "channels": [
     {
-     "name": "TVF Voleybol TV Youtube",
+     "name": "TRT Spor",
      "platforms": [
+      {
+       "name": "Digiturk",
+       "no": "56"
+      },
+      {
+       "name": "D Smart",
+       "no": "86"
+      },
+      {
+       "name": "Kablo TV",
+       "no": "133"
+      },
+      {
+       "name": "Şifresiz",
+       "no": "4A"
+      },
+      {
+       "name": "Tivibu",
+       "no": "85"
+      },
       {
        "name": "Web",
        "no": null
       },
       {
-       "name": "Youtube",
-       "no": "Şifresiz"
+       "name": "Turkcell TV+",
+       "no": "70"
       }
      ]
     }
