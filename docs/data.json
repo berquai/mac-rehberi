@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T08:49:14+03:00",
+ "generated_at": "2026-11-14T09:55:42+03:00",
  "matches": [
   {
    "id": "se493803",
@@ -1191,34 +1191,6 @@
    "women": true,
    "home": "Beşiktaş",
    "away": "İstanbul Gençlik",
-   "start": "2026-11-21T14:00:00+03:00",
-   "channels": [
-    {
-     "name": "TBF TV Youtube",
-     "platforms": [
-      {
-       "name": "Web",
-       "no": null
-      },
-      {
-       "name": "Youtube",
-       "no": "Şifresiz"
-      }
-     ]
-    }
-   ],
-   "note": "",
-   "score": null,
-   "status": "scheduled"
-  },
-  {
-   "id": "se493911",
-   "sport": "basketball",
-   "league": "Kadinlar Basketbol Süper Ligi",
-   "national": false,
-   "women": true,
-   "home": "Fenerbahçe Tarfin",
-   "away": "OGM Orman",
    "start": "2026-11-21T14:00:00+03:00",
    "channels": [
     {
