@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T12:44:58+03:00",
+ "generated_at": "2026-11-15T13:42:57+03:00",
  "matches": [
   {
    "id": "se493803",
@@ -870,15 +870,19 @@
    "start": "2026-11-17T19:00:00+03:00",
    "channels": [
     {
-     "name": "TRT Spor Yildiz",
+     "name": "TRT Spor",
      "platforms": [
       {
        "name": "Digiturk",
-       "no": "87"
+       "no": "56"
+      },
+      {
+       "name": "D Smart",
+       "no": "86"
       },
       {
        "name": "Kablo TV",
-       "no": "242"
+       "no": "133"
       },
       {
        "name": "Şifresiz",
@@ -894,7 +898,7 @@
       },
       {
        "name": "Turkcell TV+",
-       "no": "71"
+       "no": "70"
       }
      ]
     }
@@ -1016,13 +1020,13 @@
    "status": "scheduled"
   },
   {
-   "id": "se494674",
+   "id": "se494673",
    "sport": "basketball",
    "league": "FIBA Şampiyonlar Ligi",
    "national": false,
    "women": false,
-   "home": "Galatasaray MCT Technic",
-   "away": "Legia Varşova",
+   "home": "AEK",
+   "away": "Falco Szombathely",
    "start": "2026-11-18T20:00:00+03:00",
    "channels": [
     {
@@ -1044,13 +1048,13 @@
    "status": "scheduled"
   },
   {
-   "id": "se494673",
+   "id": "se494674",
    "sport": "basketball",
    "league": "FIBA Şampiyonlar Ligi",
    "national": false,
    "women": false,
-   "home": "AEK",
-   "away": "Falco Szombathely",
+   "home": "Galatasaray MCT Technic",
+   "away": "Legia Varşova",
    "start": "2026-11-18T20:00:00+03:00",
    "channels": [
     {
@@ -1712,54 +1716,6 @@
    "status": "scheduled"
   },
   {
-   "id": "se493911",
-   "sport": "basketball",
-   "league": "Kadinlar Basketbol Süper Ligi",
-   "national": false,
-   "women": true,
-   "home": "Fenerbahçe Tarfin",
-   "away": "OGM Orman",
-   "start": "2026-11-22T13:00:00+03:00",
-   "channels": [
-    {
-     "name": "HT Spor",
-     "platforms": [
-      {
-       "name": "Digiturk",
-       "no": "75"
-      },
-      {
-       "name": "D Smart",
-       "no": "79"
-      },
-      {
-       "name": "Tivibu",
-       "no": "87"
-      },
-      {
-       "name": "Kablo TV",
-       "no": "227"
-      },
-      {
-       "name": "Turkcell TV+",
-       "no": "73"
-      },
-      {
-       "name": "Web",
-       "no": null
-      },
-      {
-       "name": "Şifresiz",
-       "no": "4A"
-      }
-     ]
-    }
-   ],
-   "note": "",
-   "score": null,
-   "status": "scheduled"
-  },
-  {
    "id": "se496461",
    "sport": "volleyball",
    "league": "TVF Sultanlar Ligi",
@@ -1771,6 +1727,34 @@
    "channels": [
     {
      "name": "TVF Voleybol TV Youtube",
+     "platforms": [
+      {
+       "name": "Web",
+       "no": null
+      },
+      {
+       "name": "Youtube",
+       "no": "Şifresiz"
+      }
+     ]
+    }
+   ],
+   "note": "",
+   "score": null,
+   "status": "scheduled"
+  },
+  {
+   "id": "se493911",
+   "sport": "basketball",
+   "league": "Kadinlar Basketbol Süper Ligi",
+   "national": false,
+   "women": true,
+   "home": "Fenerbahçe Tarfin",
+   "away": "OGM Orman",
+   "start": "2026-11-22T13:00:00+03:00",
+   "channels": [
+    {
+     "name": "TBF TV Youtube",
      "platforms": [
       {
        "name": "Web",
@@ -2132,34 +2116,6 @@
    "status": "scheduled"
   },
   {
-   "id": "se488989",
-   "sport": "football",
-   "league": "Trendyol Süper Lig",
-   "national": false,
-   "women": false,
-   "home": "Trabzonspor",
-   "away": "Eyüpspor",
-   "start": "2026-11-22T19:00:00+03:00",
-   "channels": [
-    {
-     "name": "Bein Sports 1",
-     "platforms": [
-      {
-       "name": "Digiturk",
-       "no": "77"
-      },
-      {
-       "name": "Web",
-       "no": null
-      }
-     ]
-    }
-   ],
-   "note": "",
-   "score": null,
-   "status": "scheduled"
-  },
-  {
    "id": "se496462",
    "sport": "volleyball",
    "league": "TVF Sultanlar Ligi",
@@ -2195,6 +2151,34 @@
       {
        "name": "Turkcell TV+",
        "no": "71"
+      }
+     ]
+    }
+   ],
+   "note": "",
+   "score": null,
+   "status": "scheduled"
+  },
+  {
+   "id": "se488989",
+   "sport": "football",
+   "league": "Trendyol Süper Lig",
+   "national": false,
+   "women": false,
+   "home": "Trabzonspor",
+   "away": "Eyüpspor",
+   "start": "2026-11-22T19:00:00+03:00",
+   "channels": [
+    {
+     "name": "Bein Sports 1",
+     "platforms": [
+      {
+       "name": "Digiturk",
+       "no": "77"
+      },
+      {
+       "name": "Web",
+       "no": null
       }
      ]
     }
