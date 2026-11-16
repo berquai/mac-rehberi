@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16T13:57:30+03:00",
+ "generated_at": "2026-11-16T23:55:42+03:00",
  "matches": [
   {
    "id": "se493714",
@@ -615,34 +615,6 @@
    "status": "scheduled"
   },
   {
-   "id": "se494673",
-   "sport": "basketball",
-   "league": "FIBA Şampiyonlar Ligi",
-   "national": false,
-   "women": false,
-   "home": "AEK",
-   "away": "Falco Szombathely",
-   "start": "2026-11-18T20:00:00+03:00",
-   "channels": [
-    {
-     "name": "FIBA Şampiyonlar Ligi Youtube",
-     "platforms": [
-      {
-       "name": "Web",
-       "no": null
-      },
-      {
-       "name": "Youtube",
-       "no": "Şifresiz"
-      }
-     ]
-    }
-   ],
-   "note": "",
-   "score": null,
-   "status": "scheduled"
-  },
-  {
    "id": "se494674",
    "sport": "basketball",
    "league": "FIBA Şampiyonlar Ligi",
@@ -682,6 +654,34 @@
       {
        "name": "Turkcell TV+",
        "no": "70"
+      }
+     ]
+    }
+   ],
+   "note": "",
+   "score": null,
+   "status": "scheduled"
+  },
+  {
+   "id": "se494673",
+   "sport": "basketball",
+   "league": "FIBA Şampiyonlar Ligi",
+   "national": false,
+   "women": false,
+   "home": "AEK",
+   "away": "Falco Szombathely",
+   "start": "2026-11-18T20:00:00+03:00",
+   "channels": [
+    {
+     "name": "FIBA Şampiyonlar Ligi Youtube",
+     "platforms": [
+      {
+       "name": "Web",
+       "no": null
+      },
+      {
+       "name": "Youtube",
+       "no": "Şifresiz"
       }
      ]
     }
