@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T16:05:29+03:00",
+ "generated_at": "2026-11-18T00:42:49+03:00",
  "matches": [
   {
    "id": "se493772",
@@ -1718,6 +1718,282 @@
    "home": "Slovan Bratislava",
    "away": "Real Betis",
    "start": "2026-11-24T23:00:00+03:00",
+   "channels": [
+    {
+     "name": "tabii Spor",
+     "platforms": [
+      {
+       "name": "Web",
+       "no": null
+      },
+      {
+       "name": "Turkcell TV+",
+       "no": "75"
+      }
+     ]
+    }
+   ],
+   "note": "",
+   "score": null,
+   "status": "scheduled"
+  },
+  {
+   "id": "se491496",
+   "sport": "football",
+   "league": "UEFA Şampiyonlar Ligi",
+   "national": false,
+   "women": false,
+   "home": "Sabah Bakü",
+   "away": "Barcelona",
+   "start": "2026-11-25T20:45:00+03:00",
+   "channels": [
+    {
+     "name": "tabii Spor",
+     "platforms": [
+      {
+       "name": "Web",
+       "no": null
+      },
+      {
+       "name": "Turkcell TV+",
+       "no": "75"
+      }
+     ]
+    }
+   ],
+   "note": "",
+   "score": null,
+   "status": "scheduled"
+  },
+  {
+   "id": "se491497",
+   "sport": "football",
+   "league": "UEFA Şampiyonlar Ligi",
+   "national": false,
+   "women": false,
+   "home": "Slavia Prag",
+   "away": "Villarreal",
+   "start": "2026-11-25T20:45:00+03:00",
+   "channels": [
+    {
+     "name": "tabii Spor",
+     "platforms": [
+      {
+       "name": "Web",
+       "no": null
+      },
+      {
+       "name": "Turkcell TV+",
+       "no": "75"
+      }
+     ]
+    }
+   ],
+   "note": "",
+   "score": null,
+   "status": "scheduled"
+  },
+  {
+   "id": "se491498",
+   "sport": "football",
+   "league": "UEFA Şampiyonlar Ligi",
+   "national": false,
+   "women": false,
+   "home": "Atletico Madrid",
+   "away": "Viking",
+   "start": "2026-11-25T23:00:00+03:00",
+   "channels": [
+    {
+     "name": "tabii Spor",
+     "platforms": [
+      {
+       "name": "Web",
+       "no": null
+      },
+      {
+       "name": "Turkcell TV+",
+       "no": "75"
+      }
+     ]
+    }
+   ],
+   "note": "",
+   "score": null,
+   "status": "scheduled"
+  },
+  {
+   "id": "se491499",
+   "sport": "football",
+   "league": "UEFA Şampiyonlar Ligi",
+   "national": false,
+   "women": false,
+   "home": "Club Brugge",
+   "away": "Liverpool",
+   "start": "2026-11-25T23:00:00+03:00",
+   "channels": [
+    {
+     "name": "tabii Spor",
+     "platforms": [
+      {
+       "name": "Web",
+       "no": null
+      },
+      {
+       "name": "Turkcell TV+",
+       "no": "75"
+      }
+     ]
+    }
+   ],
+   "note": "",
+   "score": null,
+   "status": "scheduled"
+  },
+  {
+   "id": "se491500",
+   "sport": "football",
+   "league": "UEFA Şampiyonlar Ligi",
+   "national": false,
+   "women": false,
+   "home": "Inter",
+   "away": "Stuttgart",
+   "start": "2026-11-25T23:00:00+03:00",
+   "channels": [
+    {
+     "name": "tabii Spor",
+     "platforms": [
+      {
+       "name": "Web",
+       "no": null
+      },
+      {
+       "name": "Turkcell TV+",
+       "no": "75"
+      }
+     ]
+    }
+   ],
+   "note": "",
+   "score": null,
+   "status": "scheduled"
+  },
+  {
+   "id": "se491501",
+   "sport": "football",
+   "league": "UEFA Şampiyonlar Ligi",
+   "national": false,
+   "women": false,
+   "home": "Lille",
+   "away": "Bayern Münih",
+   "start": "2026-11-25T23:00:00+03:00",
+   "channels": [
+    {
+     "name": "tabii Spor",
+     "platforms": [
+      {
+       "name": "Web",
+       "no": null
+      },
+      {
+       "name": "Turkcell TV+",
+       "no": "75"
+      }
+     ]
+    }
+   ],
+   "note": "",
+   "score": null,
+   "status": "scheduled"
+  },
+  {
+   "id": "se491502",
+   "sport": "football",
+   "league": "UEFA Şampiyonlar Ligi",
+   "national": false,
+   "women": false,
+   "home": "PSG",
+   "away": "Roma",
+   "start": "2026-11-25T23:00:00+03:00",
+   "channels": [
+    {
+     "name": "tabii Spor",
+     "platforms": [
+      {
+       "name": "Web",
+       "no": null
+      },
+      {
+       "name": "Turkcell TV+",
+       "no": "75"
+      }
+     ]
+    }
+   ],
+   "note": "",
+   "score": null,
+   "status": "scheduled"
+  },
+  {
+   "id": "se491503",
+   "sport": "football",
+   "league": "UEFA Şampiyonlar Ligi",
+   "national": false,
+   "women": false,
+   "home": "Shakhtar Donetsk",
+   "away": "Fenerbahçe",
+   "start": "2026-11-25T23:00:00+03:00",
+   "channels": [
+    {
+     "name": "TRT 1",
+     "platforms": [
+      {
+       "name": "Digiturk",
+       "no": "23"
+      },
+      {
+       "name": "D Smart",
+       "no": "26"
+      },
+      {
+       "name": "Kablo TV",
+       "no": "22"
+      },
+      {
+       "name": "Şifresiz",
+       "no": "4A"
+      },
+      {
+       "name": "Tivibu",
+       "no": "22"
+      },
+      {
+       "name": "Web",
+       "no": null
+      },
+      {
+       "name": "Turkcell TV+",
+       "no": "21"
+      },
+      {
+       "name": "Fil Box",
+       "no": "20"
+      }
+     ]
+    }
+   ],
+   "note": "",
+   "score": null,
+   "status": "scheduled"
+  },
+  {
+   "id": "se491504",
+   "sport": "football",
+   "league": "UEFA Şampiyonlar Ligi",
+   "national": false,
+   "women": false,
+   "home": "Sporting Lisbon",
+   "away": "Manchester Utd",
+   "start": "2026-11-25T23:00:00+03:00",
    "channels": [
     {
      "name": "tabii Spor",
