@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T06:40:30+03:00",
+ "generated_at": "2026-11-17T16:05:29+03:00",
  "matches": [
   {
    "id": "se493772",
@@ -285,6 +285,34 @@
       {
        "name": "Youtube",
        "no": "Şifresiz"
+      }
+     ]
+    }
+   ],
+   "note": "",
+   "score": null,
+   "status": "scheduled"
+  },
+  {
+   "id": "se498049",
+   "sport": "volleyball",
+   "league": "CEV Erkekler Şampiyonlar Ligi",
+   "national": false,
+   "women": false,
+   "home": "Khilasedichi Bakü",
+   "away": "Ljubljana",
+   "start": "2026-11-19T17:00:00+03:00",
+   "channels": [
+    {
+     "name": "CBC Sport",
+     "platforms": [
+      {
+       "name": "Azerspace",
+       "no": "46E"
+      },
+      {
+       "name": "Web",
+       "no": null
       }
      ]
     }
