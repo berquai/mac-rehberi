@@ -1,166 +1,6 @@
 {
- "generated_at": "2026-11-18T23:50:57+03:00",
+ "generated_at": "2026-11-19T05:29:10+03:00",
  "matches": [
-  {
-   "id": "se493772",
-   "sport": "basketball",
-   "league": "Kadinlar Eurobasket Elemeleri",
-   "national": true,
-   "women": true,
-   "home": "Polonya",
-   "away": "Türkiye",
-   "start": "2026-11-17T19:00:00+03:00",
-   "channels": [
-    {
-     "name": "TRT Spor",
-     "platforms": [
-      {
-       "name": "Digiturk",
-       "no": "56"
-      },
-      {
-       "name": "D Smart",
-       "no": "86"
-      },
-      {
-       "name": "Kablo TV",
-       "no": "133"
-      },
-      {
-       "name": "Şifresiz",
-       "no": "4A"
-      },
-      {
-       "name": "Tivibu",
-       "no": "85"
-      },
-      {
-       "name": "Web",
-       "no": null
-      },
-      {
-       "name": "Turkcell TV+",
-       "no": "70"
-      }
-     ]
-    }
-   ],
-   "note": "",
-   "score": null,
-   "status": "scheduled"
-  },
-  {
-   "id": "se494669",
-   "sport": "basketball",
-   "league": "FIBA Şampiyonlar Ligi",
-   "national": false,
-   "women": false,
-   "home": "Bnei Herzliya",
-   "away": "Telekom Bonn",
-   "start": "2026-11-17T20:30:00+03:00",
-   "channels": [
-    {
-     "name": "FIBA Şampiyonlar Ligi Youtube",
-     "platforms": [
-      {
-       "name": "Web",
-       "no": null
-      },
-      {
-       "name": "Youtube",
-       "no": "Şifresiz"
-      }
-     ]
-    }
-   ],
-   "note": "",
-   "score": null,
-   "status": "scheduled"
-  },
-  {
-   "id": "se494670",
-   "sport": "basketball",
-   "league": "FIBA Şampiyonlar Ligi",
-   "national": false,
-   "women": false,
-   "home": "Juventus Utena",
-   "away": "Reggiana",
-   "start": "2026-11-17T21:00:00+03:00",
-   "channels": [
-    {
-     "name": "FIBA Şampiyonlar Ligi Youtube",
-     "platforms": [
-      {
-       "name": "Web",
-       "no": null
-      },
-      {
-       "name": "Youtube",
-       "no": "Şifresiz"
-      }
-     ]
-    }
-   ],
-   "note": "",
-   "score": null,
-   "status": "scheduled"
-  },
-  {
-   "id": "se494671",
-   "sport": "basketball",
-   "league": "FIBA Şampiyonlar Ligi",
-   "national": false,
-   "women": false,
-   "home": "Antwerp Giants",
-   "away": "Salon Vilpas",
-   "start": "2026-11-17T22:00:00+03:00",
-   "channels": [
-    {
-     "name": "FIBA Şampiyonlar Ligi Youtube",
-     "platforms": [
-      {
-       "name": "Web",
-       "no": null
-      },
-      {
-       "name": "Youtube",
-       "no": "Şifresiz"
-      }
-     ]
-    }
-   ],
-   "note": "",
-   "score": null,
-   "status": "scheduled"
-  },
-  {
-   "id": "se494672",
-   "sport": "basketball",
-   "league": "FIBA Şampiyonlar Ligi",
-   "national": false,
-   "women": false,
-   "home": "Joventut Badalona",
-   "away": "Porto",
-   "start": "2026-11-17T22:30:00+03:00",
-   "channels": [
-    {
-     "name": "FIBA Şampiyonlar Ligi Youtube",
-     "platforms": [
-      {
-       "name": "Web",
-       "no": null
-      },
-      {
-       "name": "Youtube",
-       "no": "Şifresiz"
-      }
-     ]
-    }
-   ],
-   "note": "",
-   "score": null,
-   "status": "scheduled"
-  },
   {
    "id": "se494673",
    "sport": "basketball",
@@ -337,6 +177,27 @@
       {
        "name": "Digiturk",
        "no": "81"
+      },
+      {
+       "name": "Web",
+       "no": null
+      }
+     ]
+    },
+    {
+     "name": "beIN Sports Haber",
+     "platforms": [
+      {
+       "name": "Digiturk",
+       "no": "85"
+      },
+      {
+       "name": "Kablo TV",
+       "no": "223"
+      },
+      {
+       "name": "Şifresiz",
+       "no": "4A"
       },
       {
        "name": "Web",
@@ -1299,6 +1160,27 @@
        "no": null
       }
      ]
+    },
+    {
+     "name": "beIN Sports Haber",
+     "platforms": [
+      {
+       "name": "Digiturk",
+       "no": "85"
+      },
+      {
+       "name": "Kablo TV",
+       "no": "223"
+      },
+      {
+       "name": "Şifresiz",
+       "no": "4A"
+      },
+      {
+       "name": "Web",
+       "no": null
+      }
+     ]
     }
    ],
    "note": "",
@@ -2005,6 +1887,47 @@
       {
        "name": "Turkcell TV+",
        "no": "75"
+      }
+     ]
+    }
+   ],
+   "note": "",
+   "score": null,
+   "status": "scheduled"
+  },
+  {
+   "id": "se498155",
+   "sport": "basketball",
+   "league": "FIBA Dünya Kupasi Elemeleri",
+   "national": true,
+   "women": false,
+   "home": "İtalya",
+   "away": "Türkiye",
+   "start": "2026-11-26T22:00:00+03:00",
+   "channels": [
+    {
+     "name": "S Sport Plus",
+     "platforms": [
+      {
+       "name": "Web",
+       "no": null
+      }
+     ]
+    },
+    {
+     "name": "S Sport",
+     "platforms": [
+      {
+       "name": "Turkcell TV+",
+       "no": "77"
+      },
+      {
+       "name": "Disney Plus",
+       "no": "Web"
+      },
+      {
+       "name": "Web",
+       "no": null
       }
      ]
     }
