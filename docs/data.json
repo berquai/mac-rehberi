@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T05:29:10+03:00",
+ "generated_at": "2026-11-19T13:42:09+03:00",
  "matches": [
   {
    "id": "se494673",
@@ -1344,6 +1344,78 @@
    "status": "scheduled"
   },
   {
+   "id": "se498284",
+   "sport": "volleyball",
+   "league": "CEV Kadinlar Şampiyonlar Ligi",
+   "national": false,
+   "women": true,
+   "home": "Eczacibasi",
+   "away": "Tent Obrenovac",
+   "start": "2026-11-24T19:00:00+03:00",
+   "channels": [
+    {
+     "name": "tabii Spor",
+     "platforms": [
+      {
+       "name": "Web",
+       "no": null
+      },
+      {
+       "name": "Turkcell TV+",
+       "no": "75"
+      }
+     ]
+    }
+   ],
+   "note": "",
+   "score": null,
+   "status": "scheduled"
+  },
+  {
+   "id": "se498285",
+   "sport": "volleyball",
+   "league": "CEV Kadinlar Şampiyonlar Ligi",
+   "national": false,
+   "women": true,
+   "home": "Fenerbahçe Medicana",
+   "away": "Vasas Obuda",
+   "start": "2026-11-24T19:00:00+03:00",
+   "channels": [
+    {
+     "name": "TRT Spor Yildiz",
+     "platforms": [
+      {
+       "name": "Digiturk",
+       "no": "87"
+      },
+      {
+       "name": "Kablo TV",
+       "no": "242"
+      },
+      {
+       "name": "Şifresiz",
+       "no": "4A"
+      },
+      {
+       "name": "Tivibu",
+       "no": "85"
+      },
+      {
+       "name": "Web",
+       "no": null
+      },
+      {
+       "name": "Turkcell TV+",
+       "no": "71"
+      }
+     ]
+    }
+   ],
+   "note": "",
+   "score": null,
+   "status": "scheduled"
+  },
+  {
    "id": "se491487",
    "sport": "football",
    "league": "UEFA Şampiyonlar Ligi",
@@ -1600,6 +1672,82 @@
    "home": "Slovan Bratislava",
    "away": "Real Betis",
    "start": "2026-11-24T23:00:00+03:00",
+   "channels": [
+    {
+     "name": "tabii Spor",
+     "platforms": [
+      {
+       "name": "Web",
+       "no": null
+      },
+      {
+       "name": "Turkcell TV+",
+       "no": "75"
+      }
+     ]
+    }
+   ],
+   "note": "",
+   "score": null,
+   "status": "scheduled"
+  },
+  {
+   "id": "se498286",
+   "sport": "volleyball",
+   "league": "CEV Kadinlar Şampiyonlar Ligi",
+   "national": false,
+   "women": true,
+   "home": "Vakifbank",
+   "away": "Beveren",
+   "start": "2026-11-25T19:00:00+03:00",
+   "channels": [
+    {
+     "name": "TRT Spor",
+     "platforms": [
+      {
+       "name": "Digiturk",
+       "no": "56"
+      },
+      {
+       "name": "D Smart",
+       "no": "86"
+      },
+      {
+       "name": "Kablo TV",
+       "no": "133"
+      },
+      {
+       "name": "Şifresiz",
+       "no": "4A"
+      },
+      {
+       "name": "Tivibu",
+       "no": "85"
+      },
+      {
+       "name": "Web",
+       "no": null
+      },
+      {
+       "name": "Turkcell TV+",
+       "no": "70"
+      }
+     ]
+    }
+   ],
+   "note": "",
+   "score": null,
+   "status": "scheduled"
+  },
+  {
+   "id": "se498287",
+   "sport": "volleyball",
+   "league": "CEV Kadinlar Şampiyonlar Ligi",
+   "national": false,
+   "women": true,
+   "home": "Budowlani Lodz",
+   "away": "Galatasaray Daikin",
+   "start": "2026-11-25T20:00:00+03:00",
    "channels": [
     {
      "name": "tabii Spor",
