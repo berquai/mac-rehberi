@@ -1,138 +1,6 @@
 {
- "generated_at": "2026-11-19T13:42:09+03:00",
+ "generated_at": "2026-11-20T15:22:29+03:00",
  "matches": [
-  {
-   "id": "se494673",
-   "sport": "basketball",
-   "league": "FIBA Şampiyonlar Ligi",
-   "national": false,
-   "women": false,
-   "home": "AEK",
-   "away": "Falco Szombathely",
-   "start": "2026-11-18T20:00:00+03:00",
-   "channels": [
-    {
-     "name": "FIBA Şampiyonlar Ligi Youtube",
-     "platforms": [
-      {
-       "name": "Web",
-       "no": null
-      },
-      {
-       "name": "Youtube",
-       "no": "Şifresiz"
-      }
-     ]
-    }
-   ],
-   "note": "",
-   "score": null,
-   "status": "scheduled"
-  },
-  {
-   "id": "se494674",
-   "sport": "basketball",
-   "league": "FIBA Şampiyonlar Ligi",
-   "national": false,
-   "women": false,
-   "home": "Galatasaray MCT Technic",
-   "away": "Legia Varşova",
-   "start": "2026-11-18T20:00:00+03:00",
-   "channels": [
-    {
-     "name": "TRT Spor",
-     "platforms": [
-      {
-       "name": "Digiturk",
-       "no": "56"
-      },
-      {
-       "name": "D Smart",
-       "no": "86"
-      },
-      {
-       "name": "Kablo TV",
-       "no": "133"
-      },
-      {
-       "name": "Şifresiz",
-       "no": "4A"
-      },
-      {
-       "name": "Tivibu",
-       "no": "85"
-      },
-      {
-       "name": "Web",
-       "no": null
-      },
-      {
-       "name": "Turkcell TV+",
-       "no": "70"
-      }
-     ]
-    }
-   ],
-   "note": "",
-   "score": null,
-   "status": "scheduled"
-  },
-  {
-   "id": "se494675",
-   "sport": "basketball",
-   "league": "FIBA Şampiyonlar Ligi",
-   "national": false,
-   "women": false,
-   "home": "BC Cibona",
-   "away": "Strasbourg",
-   "start": "2026-11-18T22:00:00+03:00",
-   "channels": [
-    {
-     "name": "FIBA Şampiyonlar Ligi Youtube",
-     "platforms": [
-      {
-       "name": "Web",
-       "no": null
-      },
-      {
-       "name": "Youtube",
-       "no": "Şifresiz"
-      }
-     ]
-    }
-   ],
-   "note": "",
-   "score": null,
-   "status": "scheduled"
-  },
-  {
-   "id": "se494676",
-   "sport": "basketball",
-   "league": "FIBA Şampiyonlar Ligi",
-   "national": false,
-   "women": false,
-   "home": "Unicaja Malaga",
-   "away": "Pardubice",
-   "start": "2026-11-18T22:30:00+03:00",
-   "channels": [
-    {
-     "name": "FIBA Şampiyonlar Ligi Youtube",
-     "platforms": [
-      {
-       "name": "Web",
-       "no": null
-      },
-      {
-       "name": "Youtube",
-       "no": "Şifresiz"
-      }
-     ]
-    }
-   ],
-   "note": "",
-   "score": null,
-   "status": "scheduled"
-  },
   {
    "id": "se498049",
    "sport": "volleyball",
@@ -143,6 +11,19 @@
    "away": "Ljubljana",
    "start": "2026-11-19T17:00:00+03:00",
    "channels": [
+    {
+     "name": "CEV Youtube",
+     "platforms": [
+      {
+       "name": "Web",
+       "no": null
+      },
+      {
+       "name": "Youtube",
+       "no": "Şifresiz"
+      }
+     ]
+    },
     {
      "name": "CBC Sport",
      "platforms": [
@@ -325,15 +206,11 @@
    "start": "2026-11-21T15:00:00+03:00",
    "channels": [
     {
-     "name": "TVF Voleybol TV Youtube",
+     "name": "Yayın Yok",
      "platforms": [
       {
-       "name": "Web",
-       "no": null
-      },
-      {
-       "name": "Youtube",
-       "no": "Şifresiz"
+       "name": "Şifresiz",
+       "no": "Yok"
       }
      ]
     }
@@ -2072,6 +1949,62 @@
       {
        "name": "Disney Plus",
        "no": "Web"
+      },
+      {
+       "name": "Web",
+       "no": null
+      }
+     ]
+    }
+   ],
+   "note": "",
+   "score": null,
+   "status": "scheduled"
+  },
+  {
+   "id": "se497147",
+   "sport": "football",
+   "league": "Trendyol Süper Lig",
+   "national": false,
+   "women": false,
+   "home": "Alanyaspor",
+   "away": "Konyaspor",
+   "start": "2026-11-27T20:00:00+03:00",
+   "channels": [
+    {
+     "name": "Bein Sports 2",
+     "platforms": [
+      {
+       "name": "Digiturk",
+       "no": "78"
+      },
+      {
+       "name": "Web",
+       "no": null
+      }
+     ]
+    }
+   ],
+   "note": "",
+   "score": null,
+   "status": "scheduled"
+  },
+  {
+   "id": "se497148",
+   "sport": "football",
+   "league": "Trendyol Süper Lig",
+   "national": false,
+   "women": false,
+   "home": "Ç.Rizespor",
+   "away": "Kasımpaşa",
+   "start": "2026-11-27T20:00:00+03:00",
+   "channels": [
+    {
+     "name": "Bein Sports 1",
+     "platforms": [
+      {
+       "name": "Digiturk",
+       "no": "77"
       },
       {
        "name": "Web",
