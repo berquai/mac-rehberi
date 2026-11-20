@@ -90,15 +90,30 @@ def parse_dt(s: str) -> datetime:
 
 
 def extract_events(html: str) -> list[dict]:
+    """Sayfadaki maç listesini çıkar.
+
+    Eski biçim: "events":[...] ve her maçta kanal nesneleri.
+    Yeni biçim (Kasım 2026): "eventRows":[...] ve kanallar sadece ID; ayrıntılar "eventChannels":{...} içinde.
+    """
     dec = json.JSONDecoder()
+    chan_map: dict[str, dict] = {}
+    for m in re.finditer(r'"eventChannels":\{', html):
+        try:
+            obj, _ = dec.raw_decode(html, m.end() - 1)
+            chan_map.update({str(k): v for k, v in obj.items() if isinstance(v, dict)})
+        except ValueError:
+            continue
     found: dict[int, dict] = {}
-    for m in re.finditer(r'"events":\[', html):
+    for m in re.finditer(r'"(?:events|eventRows)":\[', html):
         try:
             arr, _ = dec.raw_decode(html, m.end() - 1)
         except ValueError:
             continue
         for ev in arr:
             if isinstance(ev, dict) and "id" in ev and "date_time" in ev:
+                chs = ev.get("channels") or []
+                if chs and not isinstance(chs[0], dict):  # yeni biçim: ID listesi
+                    ev = {**ev, "channels": [chan_map[str(c)] for c in chs if str(c) in chan_map]}
                 found[ev["id"]] = ev
     return list(found.values())
 
