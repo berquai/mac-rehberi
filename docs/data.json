@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T02:55:57+03:00",
+ "generated_at": "2026-11-21T09:53:59+03:00",
  "matches": [
   {
    "id": "se493811",
@@ -641,15 +641,39 @@
    "start": "2026-11-22T13:00:00+03:00",
    "channels": [
     {
-     "name": "TBF TV Youtube",
+     "name": "FB TV",
      "platforms": [
+      {
+       "name": "Digiturk",
+       "no": "76"
+      },
+      {
+       "name": "D Smart",
+       "no": "83"
+      },
+      {
+       "name": "Kablo TV",
+       "no": "139"
+      },
+      {
+       "name": "Şifresiz",
+       "no": "4A"
+      },
+      {
+       "name": "Tivibu",
+       "no": "80"
+      },
       {
        "name": "Web",
        "no": null
       },
       {
-       "name": "Youtube",
-       "no": "Şifresiz"
+       "name": "Fil Box",
+       "no": "76"
+      },
+      {
+       "name": "Turkcell TV+",
+       "no": "74"
       }
      ]
     }
@@ -1101,7 +1125,7 @@
    "league": "Basketbol Süper Ligi",
    "national": false,
    "women": false,
-   "home": "Beşiktaş",
+   "home": "Beşiktaş Fuzul",
    "away": "Fenerbahçe Tarfin",
    "start": "2026-11-22T20:30:00+03:00",
    "channels": [
