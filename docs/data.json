@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21T09:53:59+03:00",
+ "generated_at": "2026-11-21T18:15:31+03:00",
  "matches": [
   {
    "id": "se493811",
@@ -75,8 +75,12 @@
     }
    ],
    "note": "",
-   "score": null,
-   "status": "scheduled"
+   "score": {
+    "home": "1",
+    "away": "0"
+   },
+   "status": "finished",
+   "detail": "FT"
   },
   {
    "id": "se493910",
@@ -179,6 +183,34 @@
    "status": "scheduled"
   },
   {
+   "id": "se498475",
+   "sport": "football",
+   "league": "UEFA Regions Cup",
+   "national": true,
+   "women": false,
+   "home": "Romanya",
+   "away": "Türkiye",
+   "start": "2026-11-21T15:00:00+03:00",
+   "channels": [
+    {
+     "name": "TFF Youtube",
+     "platforms": [
+      {
+       "name": "Web",
+       "no": null
+      },
+      {
+       "name": "Youtube",
+       "no": "Şifresiz"
+      }
+     ]
+    }
+   ],
+   "note": "",
+   "score": null,
+   "status": "scheduled"
+  },
+  {
    "id": "se493812",
    "sport": "basketball",
    "league": "Basketbol Süper Ligi",
@@ -231,8 +263,12 @@
     }
    ],
    "note": "",
-   "score": null,
-   "status": "scheduled"
+   "score": {
+    "home": "0",
+    "away": "2"
+   },
+   "status": "finished",
+   "detail": "FT"
   },
   {
    "id": "se488984",
@@ -259,8 +295,12 @@
     }
    ],
    "note": "",
-   "score": null,
-   "status": "scheduled"
+   "score": {
+    "home": "2",
+    "away": "1"
+   },
+   "status": "finished",
+   "detail": "FT"
   },
   {
    "id": "se493912",
