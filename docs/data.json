@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T06:02:01+03:00",
+ "generated_at": "2026-11-23T15:12:25+03:00",
  "matches": [
   {
    "id": "se493815",
@@ -764,6 +764,19 @@
        "no": "20"
       }
      ]
+    },
+    {
+     "name": "CBC Sport",
+     "platforms": [
+      {
+       "name": "Azerspace",
+       "no": "46E"
+      },
+      {
+       "name": "Web",
+       "no": null
+      }
+     ]
     }
    ],
    "note": "",
@@ -771,25 +784,21 @@
    "status": "scheduled"
   },
   {
-   "id": "se491491",
+   "id": "se491490",
    "sport": "football",
    "league": "UEFA Şampiyonlar Ligi",
    "national": false,
    "women": false,
-   "home": "Feyenoord",
-   "away": "Porto",
+   "home": "Como",
+   "away": "AEK",
    "start": "2026-11-24T23:00:00+03:00",
    "channels": [
     {
-     "name": "tabii Spor",
+     "name": "tabii Spor 4",
      "platforms": [
       {
        "name": "Web",
        "no": null
-      },
-      {
-       "name": "Turkcell TV+",
-       "no": "75"
       }
      ]
     }
@@ -809,15 +818,11 @@
    "start": "2026-11-24T23:00:00+03:00",
    "channels": [
     {
-     "name": "tabii Spor",
+     "name": "tabii Spor 6",
      "platforms": [
       {
        "name": "Web",
        "no": null
-      },
-      {
-       "name": "Turkcell TV+",
-       "no": "75"
       }
      ]
     }
@@ -848,6 +853,19 @@
        "no": "75"
       }
      ]
+    },
+    {
+     "name": "CBC Sport",
+     "platforms": [
+      {
+       "name": "Azerspace",
+       "no": "46E"
+      },
+      {
+       "name": "Web",
+       "no": null
+      }
+     ]
     }
    ],
    "note": "",
@@ -865,15 +883,11 @@
    "start": "2026-11-24T23:00:00+03:00",
    "channels": [
     {
-     "name": "tabii Spor",
+     "name": "tabii Spor 5",
      "platforms": [
       {
        "name": "Web",
        "no": null
-      },
-      {
-       "name": "Turkcell TV+",
-       "no": "75"
       }
      ]
     }
@@ -893,15 +907,11 @@
    "start": "2026-11-24T23:00:00+03:00",
    "channels": [
     {
-     "name": "tabii Spor",
+     "name": "tabii Spor 2",
      "platforms": [
       {
        "name": "Web",
        "no": null
-      },
-      {
-       "name": "Turkcell TV+",
-       "no": "75"
       }
      ]
     }
@@ -911,25 +921,21 @@
    "status": "scheduled"
   },
   {
-   "id": "se491490",
+   "id": "se491491",
    "sport": "football",
    "league": "UEFA Şampiyonlar Ligi",
    "national": false,
    "women": false,
-   "home": "Como",
-   "away": "AEK",
+   "home": "Feyenoord",
+   "away": "Porto",
    "start": "2026-11-24T23:00:00+03:00",
    "channels": [
     {
-     "name": "tabii Spor",
+     "name": "tabii Spor 3",
      "platforms": [
       {
        "name": "Web",
        "no": null
-      },
-      {
-       "name": "Turkcell TV+",
-       "no": "75"
       }
      ]
     }
@@ -949,15 +955,24 @@
    "start": "2026-11-24T23:00:00+03:00",
    "channels": [
     {
-     "name": "tabii Spor",
+     "name": "tabii Spor 1",
      "platforms": [
       {
        "name": "Web",
        "no": null
+      }
+     ]
+    },
+    {
+     "name": "İçtimai TV",
+     "platforms": [
+      {
+       "name": "Azerspace",
+       "no": "46E"
       },
       {
-       "name": "Turkcell TV+",
-       "no": "75"
+       "name": "Web",
+       "no": null
       }
      ]
     }
@@ -1043,6 +1058,30 @@
    "status": "scheduled"
   },
   {
+   "id": "se498697",
+   "sport": "volleyball",
+   "league": "CEV Kadinlar Şampiyonlar Ligi",
+   "national": false,
+   "women": true,
+   "home": "Scandicci",
+   "away": "Tovuz",
+   "start": "2026-11-25T20:30:00+03:00",
+   "channels": [
+    {
+     "name": "Idman TV",
+     "platforms": [
+      {
+       "name": "Azerspace",
+       "no": "46E"
+      }
+     ]
+    }
+   ],
+   "note": "",
+   "score": null,
+   "status": "scheduled"
+  },
+  {
    "id": "se491496",
    "sport": "football",
    "league": "UEFA Şampiyonlar Ligi",
@@ -1064,6 +1103,19 @@
        "no": "75"
       }
      ]
+    },
+    {
+     "name": "İçtimai TV",
+     "platforms": [
+      {
+       "name": "Azerspace",
+       "no": "46E"
+      },
+      {
+       "name": "Web",
+       "no": null
+      }
+     ]
     }
    ],
    "note": "",
@@ -1081,15 +1133,24 @@
    "start": "2026-11-25T20:45:00+03:00",
    "channels": [
     {
-     "name": "tabii Spor",
+     "name": "tabii Spor 1",
      "platforms": [
       {
        "name": "Web",
        "no": null
+      }
+     ]
+    },
+    {
+     "name": "CBC Sport",
+     "platforms": [
+      {
+       "name": "Azerspace",
+       "no": "46E"
       },
       {
-       "name": "Turkcell TV+",
-       "no": "75"
+       "name": "Web",
+       "no": null
       }
      ]
     }
@@ -1109,15 +1170,11 @@
    "start": "2026-11-25T23:00:00+03:00",
    "channels": [
     {
-     "name": "tabii Spor",
+     "name": "tabii Spor 5",
      "platforms": [
       {
        "name": "Web",
        "no": null
-      },
-      {
-       "name": "Turkcell TV+",
-       "no": "75"
       }
      ]
     }
@@ -1137,15 +1194,24 @@
    "start": "2026-11-25T23:00:00+03:00",
    "channels": [
     {
-     "name": "tabii Spor",
+     "name": "tabii Spor 4",
      "platforms": [
       {
        "name": "Web",
        "no": null
+      }
+     ]
+    },
+    {
+     "name": "İçtimai TV",
+     "platforms": [
+      {
+       "name": "Azerspace",
+       "no": "46E"
       },
       {
-       "name": "Turkcell TV+",
-       "no": "75"
+       "name": "Web",
+       "no": null
       }
      ]
     }
@@ -1200,6 +1266,19 @@
        "no": "20"
       }
      ]
+    },
+    {
+     "name": "CBC Sport",
+     "platforms": [
+      {
+       "name": "Azerspace",
+       "no": "46E"
+      },
+      {
+       "name": "Web",
+       "no": null
+      }
+     ]
     }
    ],
    "note": "",
@@ -1245,15 +1324,11 @@
    "start": "2026-11-25T23:00:00+03:00",
    "channels": [
     {
-     "name": "tabii Spor",
+     "name": "tabii Spor 2",
      "platforms": [
       {
        "name": "Web",
        "no": null
-      },
-      {
-       "name": "Turkcell TV+",
-       "no": "75"
       }
      ]
     }
@@ -1273,15 +1348,11 @@
    "start": "2026-11-25T23:00:00+03:00",
    "channels": [
     {
-     "name": "tabii Spor",
+     "name": "tabii Spor 1",
      "platforms": [
       {
        "name": "Web",
        "no": null
-      },
-      {
-       "name": "Turkcell TV+",
-       "no": "75"
       }
      ]
     }
@@ -1301,15 +1372,11 @@
    "start": "2026-11-25T23:00:00+03:00",
    "channels": [
     {
-     "name": "tabii Spor",
+     "name": "tabii Spor 3",
      "platforms": [
       {
        "name": "Web",
        "no": null
-      },
-      {
-       "name": "Turkcell TV+",
-       "no": "75"
       }
      ]
     }
