@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T13:20:55+03:00",
+ "generated_at": "2026-11-24T23:49:18+03:00",
  "matches": [
   {
    "id": "se488990",
@@ -45,6 +45,34 @@
    "channels": [
     {
      "name": "TVF Voleybol TV Youtube",
+     "platforms": [
+      {
+       "name": "Web",
+       "no": null
+      },
+      {
+       "name": "Youtube",
+       "no": "Şifresiz"
+      }
+     ]
+    }
+   ],
+   "note": "",
+   "score": null,
+   "status": "scheduled"
+  },
+  {
+   "id": "se498814",
+   "sport": "football",
+   "league": "UEFA Regions Cup",
+   "national": true,
+   "women": false,
+   "home": "Türkiye",
+   "away": "Azerbaycan",
+   "start": "2026-11-24T15:00:00+03:00",
+   "channels": [
+    {
+     "name": "TFF Youtube",
      "platforms": [
       {
        "name": "Web",
@@ -158,8 +186,12 @@
     }
    ],
    "note": "",
-   "score": null,
-   "status": "scheduled"
+   "score": {
+    "home": "1",
+    "away": "0"
+   },
+   "status": "finished",
+   "detail": "FT"
   },
   {
    "id": "se491488",
@@ -223,8 +255,12 @@
     }
    ],
    "note": "",
-   "score": null,
-   "status": "scheduled"
+   "score": {
+    "home": "1",
+    "away": "0"
+   },
+   "status": "finished",
+   "detail": "FT"
   },
   {
    "id": "se491489",
@@ -260,8 +296,12 @@
     }
    ],
    "note": "",
-   "score": null,
-   "status": "scheduled"
+   "score": {
+    "home": "1",
+    "away": "0"
+   },
+   "status": "live",
+   "detail": "HT"
   },
   {
    "id": "se491490",
@@ -284,8 +324,12 @@
     }
    ],
    "note": "",
-   "score": null,
-   "status": "scheduled"
+   "score": {
+    "home": "0",
+    "away": "0"
+   },
+   "status": "live",
+   "detail": "45'+1'"
   },
   {
    "id": "se491491",
@@ -308,8 +352,12 @@
     }
    ],
    "note": "",
-   "score": null,
-   "status": "scheduled"
+   "score": {
+    "home": "0",
+    "away": "1"
+   },
+   "status": "live",
+   "detail": "HT"
   },
   {
    "id": "se491492",
@@ -332,8 +380,12 @@
     }
    ],
    "note": "",
-   "score": null,
-   "status": "scheduled"
+   "score": {
+    "home": "0",
+    "away": "0"
+   },
+   "status": "live",
+   "detail": "HT"
   },
   {
    "id": "se491493",
@@ -356,8 +408,12 @@
     }
    ],
    "note": "",
-   "score": null,
-   "status": "scheduled"
+   "score": {
+    "home": "2",
+    "away": "0"
+   },
+   "status": "live",
+   "detail": "HT"
   },
   {
    "id": "se491494",
@@ -397,8 +453,12 @@
     }
    ],
    "note": "",
-   "score": null,
-   "status": "scheduled"
+   "score": {
+    "home": "0",
+    "away": "1"
+   },
+   "status": "live",
+   "detail": "HT"
   },
   {
    "id": "se491495",
@@ -421,8 +481,12 @@
     }
    ],
    "note": "",
-   "score": null,
-   "status": "scheduled"
+   "score": {
+    "home": "0",
+    "away": "1"
+   },
+   "status": "live",
+   "detail": "HT"
   },
   {
    "id": "se498286",
@@ -483,15 +547,11 @@
    "start": "2026-11-25T20:00:00+03:00",
    "channels": [
     {
-     "name": "tabii Spor",
+     "name": "tabii Spor 6",
      "platforms": [
       {
        "name": "Web",
        "no": null
-      },
-      {
-       "name": "Turkcell TV+",
-       "no": "75"
       }
      ]
     }
@@ -655,34 +715,97 @@
    "status": "scheduled"
   },
   {
-   "id": "se491504",
+   "id": "se491499",
    "sport": "football",
    "league": "UEFA Şampiyonlar Ligi",
    "national": false,
    "women": false,
-   "home": "Sporting Lisbon",
-   "away": "Manchester Utd",
+   "home": "Club Brugge",
+   "away": "Liverpool",
    "start": "2026-11-25T23:00:00+03:00",
    "channels": [
     {
-     "name": "tabii Spor 4",
+     "name": "tabii Spor 3",
      "platforms": [
       {
        "name": "Web",
        "no": null
       }
      ]
-    },
+    }
+   ],
+   "note": "",
+   "score": null,
+   "status": "scheduled"
+  },
+  {
+   "id": "se491500",
+   "sport": "football",
+   "league": "UEFA Şampiyonlar Ligi",
+   "national": false,
+   "women": false,
+   "home": "Inter",
+   "away": "Stuttgart",
+   "start": "2026-11-25T23:00:00+03:00",
+   "channels": [
     {
-     "name": "İçtimai TV",
+     "name": "tabii Spor 1",
      "platforms": [
-      {
-       "name": "Azerspace",
-       "no": "46E"
-      },
       {
        "name": "Web",
        "no": null
+      }
+     ]
+    }
+   ],
+   "note": "",
+   "score": null,
+   "status": "scheduled"
+  },
+  {
+   "id": "se491501",
+   "sport": "football",
+   "league": "UEFA Şampiyonlar Ligi",
+   "national": false,
+   "women": false,
+   "home": "Lille",
+   "away": "Bayern Münih",
+   "start": "2026-11-25T23:00:00+03:00",
+   "channels": [
+    {
+     "name": "tabii Spor 2",
+     "platforms": [
+      {
+       "name": "Web",
+       "no": null
+      }
+     ]
+    }
+   ],
+   "note": "",
+   "score": null,
+   "status": "scheduled"
+  },
+  {
+   "id": "se491502",
+   "sport": "football",
+   "league": "UEFA Şampiyonlar Ligi",
+   "national": false,
+   "women": false,
+   "home": "PSG",
+   "away": "Roma",
+   "start": "2026-11-25T23:00:00+03:00",
+   "channels": [
+    {
+     "name": "tabii Spor",
+     "platforms": [
+      {
+       "name": "Web",
+       "no": null
+      },
+      {
+       "name": "Turkcell TV+",
+       "no": "75"
       }
      ]
     }
@@ -757,94 +880,31 @@
    "status": "scheduled"
   },
   {
-   "id": "se491502",
+   "id": "se491504",
    "sport": "football",
    "league": "UEFA Şampiyonlar Ligi",
    "national": false,
    "women": false,
-   "home": "PSG",
-   "away": "Roma",
+   "home": "Sporting Lisbon",
+   "away": "Manchester Utd",
    "start": "2026-11-25T23:00:00+03:00",
    "channels": [
     {
-     "name": "tabii Spor",
+     "name": "tabii Spor 4",
      "platforms": [
       {
        "name": "Web",
        "no": null
+      }
+     ]
+    },
+    {
+     "name": "İçtimai TV",
+     "platforms": [
+      {
+       "name": "Azerspace",
+       "no": "46E"
       },
-      {
-       "name": "Turkcell TV+",
-       "no": "75"
-      }
-     ]
-    }
-   ],
-   "note": "",
-   "score": null,
-   "status": "scheduled"
-  },
-  {
-   "id": "se491501",
-   "sport": "football",
-   "league": "UEFA Şampiyonlar Ligi",
-   "national": false,
-   "women": false,
-   "home": "Lille",
-   "away": "Bayern Münih",
-   "start": "2026-11-25T23:00:00+03:00",
-   "channels": [
-    {
-     "name": "tabii Spor 2",
-     "platforms": [
-      {
-       "name": "Web",
-       "no": null
-      }
-     ]
-    }
-   ],
-   "note": "",
-   "score": null,
-   "status": "scheduled"
-  },
-  {
-   "id": "se491500",
-   "sport": "football",
-   "league": "UEFA Şampiyonlar Ligi",
-   "national": false,
-   "women": false,
-   "home": "Inter",
-   "away": "Stuttgart",
-   "start": "2026-11-25T23:00:00+03:00",
-   "channels": [
-    {
-     "name": "tabii Spor 1",
-     "platforms": [
-      {
-       "name": "Web",
-       "no": null
-      }
-     ]
-    }
-   ],
-   "note": "",
-   "score": null,
-   "status": "scheduled"
-  },
-  {
-   "id": "se491499",
-   "sport": "football",
-   "league": "UEFA Şampiyonlar Ligi",
-   "national": false,
-   "women": false,
-   "home": "Club Brugge",
-   "away": "Liverpool",
-   "start": "2026-11-25T23:00:00+03:00",
-   "channels": [
-    {
-     "name": "tabii Spor 3",
-     "platforms": [
       {
        "name": "Web",
        "no": null
@@ -866,6 +926,39 @@
    "away": "Türkiye",
    "start": "2026-11-26T22:00:00+03:00",
    "channels": [
+    {
+     "name": "TRT Spor",
+     "platforms": [
+      {
+       "name": "Digiturk",
+       "no": "56"
+      },
+      {
+       "name": "D Smart",
+       "no": "86"
+      },
+      {
+       "name": "Kablo TV",
+       "no": "133"
+      },
+      {
+       "name": "Şifresiz",
+       "no": "4A"
+      },
+      {
+       "name": "Tivibu",
+       "no": "85"
+      },
+      {
+       "name": "Web",
+       "no": null
+      },
+      {
+       "name": "Turkcell TV+",
+       "no": "70"
+      }
+     ]
+    },
     {
      "name": "S Sport Plus",
      "platforms": [
@@ -889,6 +982,34 @@
       {
        "name": "Web",
        "no": null
+      }
+     ]
+    }
+   ],
+   "note": "",
+   "score": null,
+   "status": "scheduled"
+  },
+  {
+   "id": "se498815",
+   "sport": "volleyball",
+   "league": "CEV Erkekler Şampiyonlar Ligi",
+   "national": false,
+   "women": false,
+   "home": "Ljubljana",
+   "away": "Khilasedichi Bakü",
+   "start": "2026-11-26T22:00:00+03:00",
+   "channels": [
+    {
+     "name": "CEV Youtube",
+     "platforms": [
+      {
+       "name": "Web",
+       "no": null
+      },
+      {
+       "name": "Youtube",
+       "no": "Şifresiz"
       }
      ]
     }
