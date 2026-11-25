@@ -1,461 +1,6 @@
 {
- "generated_at": "2026-11-25T17:10:57+03:00",
+ "generated_at": "2026-11-26T02:15:03+03:00",
  "matches": [
-  {
-   "id": "se497334",
-   "sport": "volleyball",
-   "league": "TVF Efeler Ligi",
-   "national": false,
-   "women": false,
-   "home": "Onikişubat Belediyespor",
-   "away": "Ziraat Bankkart",
-   "start": "2026-11-24T14:00:00+03:00",
-   "channels": [
-    {
-     "name": "TVF Voleybol TV Youtube",
-     "platforms": [
-      {
-       "name": "Web",
-       "no": null
-      },
-      {
-       "name": "Youtube",
-       "no": "Şifresiz"
-      }
-     ]
-    }
-   ],
-   "note": "",
-   "score": null,
-   "status": "scheduled"
-  },
-  {
-   "id": "se498814",
-   "sport": "football",
-   "league": "UEFA Regions Cup",
-   "national": true,
-   "women": false,
-   "home": "Türkiye",
-   "away": "Azerbaycan",
-   "start": "2026-11-24T15:00:00+03:00",
-   "channels": [
-    {
-     "name": "TFF Youtube",
-     "platforms": [
-      {
-       "name": "Web",
-       "no": null
-      },
-      {
-       "name": "Youtube",
-       "no": "Şifresiz"
-      }
-     ]
-    }
-   ],
-   "note": "",
-   "score": null,
-   "status": "scheduled"
-  },
-  {
-   "id": "se498284",
-   "sport": "volleyball",
-   "league": "CEV Kadinlar Şampiyonlar Ligi",
-   "national": false,
-   "women": true,
-   "home": "Eczacibasi",
-   "away": "Tent Obrenovac",
-   "start": "2026-11-24T19:00:00+03:00",
-   "channels": [
-    {
-     "name": "tabii Spor",
-     "platforms": [
-      {
-       "name": "Web",
-       "no": null
-      },
-      {
-       "name": "Turkcell TV+",
-       "no": "75"
-      }
-     ]
-    }
-   ],
-   "note": "",
-   "score": null,
-   "status": "scheduled"
-  },
-  {
-   "id": "se498285",
-   "sport": "volleyball",
-   "league": "CEV Kadinlar Şampiyonlar Ligi",
-   "national": false,
-   "women": true,
-   "home": "Fenerbahçe Medicana",
-   "away": "Vasas Obuda",
-   "start": "2026-11-24T19:00:00+03:00",
-   "channels": [
-    {
-     "name": "TRT Spor Yildiz",
-     "platforms": [
-      {
-       "name": "Digiturk",
-       "no": "87"
-      },
-      {
-       "name": "Kablo TV",
-       "no": "242"
-      },
-      {
-       "name": "Şifresiz",
-       "no": "4A"
-      },
-      {
-       "name": "Tivibu",
-       "no": "85"
-      },
-      {
-       "name": "Web",
-       "no": null
-      },
-      {
-       "name": "Turkcell TV+",
-       "no": "71"
-      }
-     ]
-    }
-   ],
-   "note": "",
-   "score": null,
-   "status": "scheduled"
-  },
-  {
-   "id": "se491487",
-   "sport": "football",
-   "league": "UEFA Şampiyonlar Ligi",
-   "national": false,
-   "women": false,
-   "home": "Bodo Glimt",
-   "away": "LASK Linz",
-   "start": "2026-11-24T20:45:00+03:00",
-   "channels": [
-    {
-     "name": "tabii Spor",
-     "platforms": [
-      {
-       "name": "Web",
-       "no": null
-      },
-      {
-       "name": "Turkcell TV+",
-       "no": "75"
-      }
-     ]
-    }
-   ],
-   "note": "",
-   "score": {
-    "home": "1",
-    "away": "0"
-   },
-   "status": "finished",
-   "detail": "FT"
-  },
-  {
-   "id": "se491488",
-   "sport": "football",
-   "league": "UEFA Şampiyonlar Ligi",
-   "national": false,
-   "women": false,
-   "home": "Galatasaray",
-   "away": "Aston Villa",
-   "start": "2026-11-24T20:45:00+03:00",
-   "channels": [
-    {
-     "name": "TRT 1",
-     "platforms": [
-      {
-       "name": "Digiturk",
-       "no": "23"
-      },
-      {
-       "name": "D Smart",
-       "no": "26"
-      },
-      {
-       "name": "Kablo TV",
-       "no": "22"
-      },
-      {
-       "name": "Şifresiz",
-       "no": "4A"
-      },
-      {
-       "name": "Tivibu",
-       "no": "22"
-      },
-      {
-       "name": "Web",
-       "no": null
-      },
-      {
-       "name": "Turkcell TV+",
-       "no": "21"
-      },
-      {
-       "name": "Fil Box",
-       "no": "20"
-      }
-     ]
-    },
-    {
-     "name": "CBC Sport",
-     "platforms": [
-      {
-       "name": "Azerspace",
-       "no": "46E"
-      },
-      {
-       "name": "Web",
-       "no": null
-      }
-     ]
-    }
-   ],
-   "note": "",
-   "score": {
-    "home": "1",
-    "away": "0"
-   },
-   "status": "finished",
-   "detail": "FT"
-  },
-  {
-   "id": "se491489",
-   "sport": "football",
-   "league": "UEFA Şampiyonlar Ligi",
-   "national": false,
-   "women": false,
-   "home": "Arsenal",
-   "away": "Borussia Dortmund",
-   "start": "2026-11-24T23:00:00+03:00",
-   "channels": [
-    {
-     "name": "tabii Spor 1",
-     "platforms": [
-      {
-       "name": "Web",
-       "no": null
-      }
-     ]
-    },
-    {
-     "name": "İçtimai TV",
-     "platforms": [
-      {
-       "name": "Azerspace",
-       "no": "46E"
-      },
-      {
-       "name": "Web",
-       "no": null
-      }
-     ]
-    }
-   ],
-   "note": "",
-   "score": {
-    "home": "1",
-    "away": "1"
-   },
-   "status": "finished",
-   "detail": "FT"
-  },
-  {
-   "id": "se491490",
-   "sport": "football",
-   "league": "UEFA Şampiyonlar Ligi",
-   "national": false,
-   "women": false,
-   "home": "Como",
-   "away": "AEK",
-   "start": "2026-11-24T23:00:00+03:00",
-   "channels": [
-    {
-     "name": "tabii Spor 4",
-     "platforms": [
-      {
-       "name": "Web",
-       "no": null
-      }
-     ]
-    }
-   ],
-   "note": "",
-   "score": {
-    "home": "1",
-    "away": "0"
-   },
-   "status": "finished",
-   "detail": "FT"
-  },
-  {
-   "id": "se491491",
-   "sport": "football",
-   "league": "UEFA Şampiyonlar Ligi",
-   "national": false,
-   "women": false,
-   "home": "Feyenoord",
-   "away": "Porto",
-   "start": "2026-11-24T23:00:00+03:00",
-   "channels": [
-    {
-     "name": "tabii Spor 3",
-     "platforms": [
-      {
-       "name": "Web",
-       "no": null
-      }
-     ]
-    }
-   ],
-   "note": "",
-   "score": {
-    "home": "0",
-    "away": "1"
-   },
-   "status": "finished",
-   "detail": "FT"
-  },
-  {
-   "id": "se491492",
-   "sport": "football",
-   "league": "UEFA Şampiyonlar Ligi",
-   "national": false,
-   "women": false,
-   "home": "Manchester City",
-   "away": "Napoli",
-   "start": "2026-11-24T23:00:00+03:00",
-   "channels": [
-    {
-     "name": "tabii Spor 2",
-     "platforms": [
-      {
-       "name": "Web",
-       "no": null
-      }
-     ]
-    }
-   ],
-   "note": "",
-   "score": {
-    "home": "2",
-    "away": "2"
-   },
-   "status": "finished",
-   "detail": "FT"
-  },
-  {
-   "id": "se491493",
-   "sport": "football",
-   "league": "UEFA Şampiyonlar Ligi",
-   "national": false,
-   "women": false,
-   "home": "Leipzig",
-   "away": "Lens",
-   "start": "2026-11-24T23:00:00+03:00",
-   "channels": [
-    {
-     "name": "tabii Spor 5",
-     "platforms": [
-      {
-       "name": "Web",
-       "no": null
-      }
-     ]
-    }
-   ],
-   "note": "",
-   "score": {
-    "home": "3",
-    "away": "1"
-   },
-   "status": "finished",
-   "detail": "FT"
-  },
-  {
-   "id": "se491494",
-   "sport": "football",
-   "league": "UEFA Şampiyonlar Ligi",
-   "national": false,
-   "women": false,
-   "home": "Real Madrid",
-   "away": "PSV",
-   "start": "2026-11-24T23:00:00+03:00",
-   "channels": [
-    {
-     "name": "tabii Spor",
-     "platforms": [
-      {
-       "name": "Web",
-       "no": null
-      },
-      {
-       "name": "Turkcell TV+",
-       "no": "75"
-      }
-     ]
-    },
-    {
-     "name": "CBC Sport",
-     "platforms": [
-      {
-       "name": "Azerspace",
-       "no": "46E"
-      },
-      {
-       "name": "Web",
-       "no": null
-      }
-     ]
-    }
-   ],
-   "note": "",
-   "score": {
-    "home": "5",
-    "away": "1"
-   },
-   "status": "finished",
-   "detail": "FT"
-  },
-  {
-   "id": "se491495",
-   "sport": "football",
-   "league": "UEFA Şampiyonlar Ligi",
-   "national": false,
-   "women": false,
-   "home": "Slovan Bratislava",
-   "away": "Real Betis",
-   "start": "2026-11-24T23:00:00+03:00",
-   "channels": [
-    {
-     "name": "tabii Spor 6",
-     "platforms": [
-      {
-       "name": "Web",
-       "no": null
-      }
-     ]
-    }
-   ],
-   "note": "",
-   "score": {
-    "home": "0",
-    "away": "2"
-   },
-   "status": "finished",
-   "detail": "FT"
-  },
   {
    "id": "se498286",
    "sport": "volleyball",
@@ -590,8 +135,12 @@
     }
    ],
    "note": "",
-   "score": null,
-   "status": "scheduled"
+   "score": {
+    "home": "1",
+    "away": "4"
+   },
+   "status": "finished",
+   "detail": "FT"
   },
   {
    "id": "se491497",
@@ -627,8 +176,12 @@
     }
    ],
    "note": "",
-   "score": null,
-   "status": "scheduled"
+   "score": {
+    "home": "0",
+    "away": "1"
+   },
+   "status": "finished",
+   "detail": "FT"
   },
   {
    "id": "se498726",
@@ -679,8 +232,12 @@
     }
    ],
    "note": "",
-   "score": null,
-   "status": "scheduled"
+   "score": {
+    "home": "2",
+    "away": "0"
+   },
+   "status": "finished",
+   "detail": "FT"
   },
   {
    "id": "se491499",
@@ -703,8 +260,12 @@
     }
    ],
    "note": "",
-   "score": null,
-   "status": "scheduled"
+   "score": {
+    "home": "0",
+    "away": "3"
+   },
+   "status": "finished",
+   "detail": "FT"
   },
   {
    "id": "se491500",
@@ -727,8 +288,12 @@
     }
    ],
    "note": "",
-   "score": null,
-   "status": "scheduled"
+   "score": {
+    "home": "2",
+    "away": "0"
+   },
+   "status": "finished",
+   "detail": "FT"
   },
   {
    "id": "se491501",
@@ -751,8 +316,12 @@
     }
    ],
    "note": "",
-   "score": null,
-   "status": "scheduled"
+   "score": {
+    "home": "2",
+    "away": "1"
+   },
+   "status": "finished",
+   "detail": "FT"
   },
   {
    "id": "se491502",
@@ -779,8 +348,12 @@
     }
    ],
    "note": "",
-   "score": null,
-   "status": "scheduled"
+   "score": {
+    "home": "2",
+    "away": "2"
+   },
+   "status": "finished",
+   "detail": "FT"
   },
   {
    "id": "se491503",
@@ -844,8 +417,12 @@
     }
    ],
    "note": "",
-   "score": null,
-   "status": "scheduled"
+   "score": {
+    "home": "0",
+    "away": "1"
+   },
+   "status": "finished",
+   "detail": "FT"
   },
   {
    "id": "se491504",
@@ -881,8 +458,12 @@
     }
    ],
    "note": "",
-   "score": null,
-   "status": "scheduled"
+   "score": {
+    "home": "2",
+    "away": "2"
+   },
+   "status": "finished",
+   "detail": "FT"
   },
   {
    "id": "se498155",
