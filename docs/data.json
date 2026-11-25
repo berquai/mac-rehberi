@@ -1,38 +1,6 @@
 {
- "generated_at": "2026-11-24T23:49:18+03:00",
+ "generated_at": "2026-11-25T07:04:31+03:00",
  "matches": [
-  {
-   "id": "se488990",
-   "sport": "football",
-   "league": "Trendyol Süper Lig",
-   "national": false,
-   "women": false,
-   "home": "İstanbul Başakşehir",
-   "away": "Çorum FK",
-   "start": "2026-11-23T20:00:00+03:00",
-   "channels": [
-    {
-     "name": "Bein Sports 1",
-     "platforms": [
-      {
-       "name": "Digiturk",
-       "no": "77"
-      },
-      {
-       "name": "Web",
-       "no": null
-      }
-     ]
-    }
-   ],
-   "note": "",
-   "score": {
-    "home": "4",
-    "away": "2"
-   },
-   "status": "finished",
-   "detail": "FT"
-  },
   {
    "id": "se497334",
    "sport": "volleyball",
@@ -298,10 +266,10 @@
    "note": "",
    "score": {
     "home": "1",
-    "away": "0"
+    "away": "1"
    },
-   "status": "live",
-   "detail": "HT"
+   "status": "finished",
+   "detail": "FT"
   },
   {
    "id": "se491490",
@@ -325,11 +293,11 @@
    ],
    "note": "",
    "score": {
-    "home": "0",
+    "home": "1",
     "away": "0"
    },
-   "status": "live",
-   "detail": "45'+1'"
+   "status": "finished",
+   "detail": "FT"
   },
   {
    "id": "se491491",
@@ -356,8 +324,8 @@
     "home": "0",
     "away": "1"
    },
-   "status": "live",
-   "detail": "HT"
+   "status": "finished",
+   "detail": "FT"
   },
   {
    "id": "se491492",
@@ -381,11 +349,11 @@
    ],
    "note": "",
    "score": {
-    "home": "0",
-    "away": "0"
+    "home": "2",
+    "away": "2"
    },
-   "status": "live",
-   "detail": "HT"
+   "status": "finished",
+   "detail": "FT"
   },
   {
    "id": "se491493",
@@ -409,11 +377,11 @@
    ],
    "note": "",
    "score": {
-    "home": "2",
-    "away": "0"
+    "home": "3",
+    "away": "1"
    },
-   "status": "live",
-   "detail": "HT"
+   "status": "finished",
+   "detail": "FT"
   },
   {
    "id": "se491494",
@@ -454,11 +422,11 @@
    ],
    "note": "",
    "score": {
-    "home": "0",
+    "home": "5",
     "away": "1"
    },
-   "status": "live",
-   "detail": "HT"
+   "status": "finished",
+   "detail": "FT"
   },
   {
    "id": "se491495",
@@ -483,10 +451,10 @@
    "note": "",
    "score": {
     "home": "0",
-    "away": "1"
+    "away": "2"
    },
-   "status": "live",
-   "detail": "HT"
+   "status": "finished",
+   "detail": "FT"
   },
   {
    "id": "se498286",
