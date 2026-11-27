@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-27T11:59:07+03:00",
+ "generated_at": "2026-11-27T21:49:59+03:00",
  "matches": [
   {
    "id": "se498155",
@@ -184,8 +184,12 @@
     }
    ],
    "note": "",
-   "score": null,
-   "status": "scheduled"
+   "score": {
+    "home": "1",
+    "away": "1"
+   },
+   "status": "live",
+   "detail": "90'+2'"
   },
   {
    "id": "se497148",
@@ -212,8 +216,12 @@
     }
    ],
    "note": "",
-   "score": null,
-   "status": "scheduled"
+   "score": {
+    "home": "2",
+    "away": "2"
+   },
+   "status": "live",
+   "detail": "90'+1'"
   },
   {
    "id": "se493915",
