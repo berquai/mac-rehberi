@@ -1,136 +1,6 @@
 {
- "generated_at": "2026-11-27T21:49:59+03:00",
+ "generated_at": "2026-11-28T04:52:27+03:00",
  "matches": [
-  {
-   "id": "se498155",
-   "sport": "basketball",
-   "league": "FIBA Dünya Kupasi Elemeleri",
-   "national": true,
-   "women": false,
-   "home": "İtalya",
-   "away": "Türkiye",
-   "start": "2026-11-26T22:00:00+03:00",
-   "channels": [
-    {
-     "name": "TRT Spor",
-     "platforms": [
-      {
-       "name": "Digiturk",
-       "no": "56"
-      },
-      {
-       "name": "D Smart",
-       "no": "86"
-      },
-      {
-       "name": "Kablo TV",
-       "no": "133"
-      },
-      {
-       "name": "Şifresiz",
-       "no": "4A"
-      },
-      {
-       "name": "Tivibu",
-       "no": "85"
-      },
-      {
-       "name": "Web",
-       "no": null
-      },
-      {
-       "name": "Turkcell TV+",
-       "no": "70"
-      }
-     ]
-    },
-    {
-     "name": "S Sport Plus",
-     "platforms": [
-      {
-       "name": "Web",
-       "no": null
-      }
-     ]
-    },
-    {
-     "name": "S Sport",
-     "platforms": [
-      {
-       "name": "Turkcell TV+",
-       "no": "77"
-      },
-      {
-       "name": "Disney Plus",
-       "no": "Web"
-      },
-      {
-       "name": "Web",
-       "no": null
-      }
-     ]
-    }
-   ],
-   "note": "",
-   "score": null,
-   "status": "scheduled"
-  },
-  {
-   "id": "se498815",
-   "sport": "volleyball",
-   "league": "CEV Erkekler Şampiyonlar Ligi",
-   "national": false,
-   "women": false,
-   "home": "Ljubljana",
-   "away": "Khilasedichi Bakü",
-   "start": "2026-11-26T22:00:00+03:00",
-   "channels": [
-    {
-     "name": "CEV Youtube",
-     "platforms": [
-      {
-       "name": "Web",
-       "no": null
-      },
-      {
-       "name": "Youtube",
-       "no": "Şifresiz"
-      }
-     ]
-    }
-   ],
-   "note": "",
-   "score": null,
-   "status": "scheduled"
-  },
-  {
-   "id": "se498727",
-   "sport": "volleyball",
-   "league": "CEV Kadinlar Şampiyonlar Ligi",
-   "national": false,
-   "women": true,
-   "home": "Rzeszow",
-   "away": "Dresdner",
-   "start": "2026-11-26T22:30:00+03:00",
-   "channels": [
-    {
-     "name": "CEV Youtube",
-     "platforms": [
-      {
-       "name": "Web",
-       "no": null
-      },
-      {
-       "name": "Youtube",
-       "no": "Şifresiz"
-      }
-     ]
-    }
-   ],
-   "note": "",
-   "score": null,
-   "status": "scheduled"
-  },
   {
    "id": "se499308",
    "sport": "football",
@@ -186,10 +56,10 @@
    "note": "",
    "score": {
     "home": "1",
-    "away": "1"
+    "away": "2"
    },
-   "status": "live",
-   "detail": "90'+2'"
+   "status": "finished",
+   "detail": "FT"
   },
   {
    "id": "se497148",
@@ -217,11 +87,11 @@
    ],
    "note": "",
    "score": {
-    "home": "2",
+    "home": "3",
     "away": "2"
    },
-   "status": "live",
-   "detail": "90'+1'"
+   "status": "finished",
+   "detail": "FT"
   },
   {
    "id": "se493915",
@@ -1145,6 +1015,534 @@
       {
        "name": "Digiturk",
        "no": "77"
+      },
+      {
+       "name": "Web",
+       "no": null
+      }
+     ]
+    }
+   ],
+   "note": "",
+   "score": null,
+   "status": "scheduled"
+  },
+  {
+   "id": "se493819",
+   "sport": "basketball",
+   "league": "Basketbol Süper Ligi",
+   "national": false,
+   "women": false,
+   "home": "Esenler Erokspor",
+   "away": "Karşıyaka",
+   "start": "2026-12-05T13:00:00+03:00",
+   "channels": [
+    {
+     "name": "Bein Sports 5",
+     "platforms": [
+      {
+       "name": "Digiturk",
+       "no": "81"
+      },
+      {
+       "name": "Web",
+       "no": null
+      }
+     ]
+    }
+   ],
+   "note": "",
+   "score": null,
+   "status": "scheduled"
+  },
+  {
+   "id": "se497157",
+   "sport": "football",
+   "league": "Trendyol Süper Lig",
+   "national": false,
+   "women": false,
+   "home": "Konyaspor",
+   "away": "Gaziantep FK",
+   "start": "2026-12-05T13:30:00+03:00",
+   "channels": [
+    {
+     "name": "Bein Sports 1",
+     "platforms": [
+      {
+       "name": "Digiturk",
+       "no": "77"
+      },
+      {
+       "name": "Web",
+       "no": null
+      }
+     ]
+    }
+   ],
+   "note": "",
+   "score": null,
+   "status": "scheduled"
+  },
+  {
+   "id": "se497369",
+   "sport": "volleyball",
+   "league": "TVF Efeler Ligi",
+   "national": false,
+   "women": false,
+   "home": "İstanbul Gençlik",
+   "away": "Sungurlu Bld.",
+   "start": "2026-12-05T14:00:00+03:00",
+   "channels": [
+    {
+     "name": "TVF Voleybol TV Youtube",
+     "platforms": [
+      {
+       "name": "Web",
+       "no": null
+      },
+      {
+       "name": "Youtube",
+       "no": "Şifresiz"
+      }
+     ]
+    }
+   ],
+   "note": "",
+   "score": null,
+   "status": "scheduled"
+  },
+  {
+   "id": "se497828",
+   "sport": "basketball",
+   "league": "Kadinlar Basketbol Süper Ligi",
+   "national": false,
+   "women": true,
+   "home": "Fenerbahçe Tarfin",
+   "away": "İstanbul Gençlik",
+   "start": "2026-12-05T14:00:00+03:00",
+   "channels": [
+    {
+     "name": "TBF TV Youtube",
+     "platforms": [
+      {
+       "name": "Web",
+       "no": null
+      },
+      {
+       "name": "Youtube",
+       "no": "Şifresiz"
+      }
+     ]
+    }
+   ],
+   "note": "",
+   "score": null,
+   "status": "scheduled"
+  },
+  {
+   "id": "se497829",
+   "sport": "basketball",
+   "league": "Kadinlar Basketbol Süper Ligi",
+   "national": false,
+   "women": true,
+   "home": "Botaş",
+   "away": "Galatasaray",
+   "start": "2026-12-05T14:00:00+03:00",
+   "channels": [
+    {
+     "name": "HT Spor",
+     "platforms": [
+      {
+       "name": "Digiturk",
+       "no": "75"
+      },
+      {
+       "name": "D Smart",
+       "no": "79"
+      },
+      {
+       "name": "Tivibu",
+       "no": "87"
+      },
+      {
+       "name": "Kablo TV",
+       "no": "227"
+      },
+      {
+       "name": "Turkcell TV+",
+       "no": "73"
+      },
+      {
+       "name": "Web",
+       "no": null
+      },
+      {
+       "name": "Şifresiz",
+       "no": "4A"
+      }
+     ]
+    }
+   ],
+   "note": "",
+   "score": null,
+   "status": "scheduled"
+  },
+  {
+   "id": "se493820",
+   "sport": "basketball",
+   "league": "Basketbol Süper Ligi",
+   "national": false,
+   "women": false,
+   "home": "Petkimspor",
+   "away": "Bahçeşehir Klj",
+   "start": "2026-12-05T15:30:00+03:00",
+   "channels": [
+    {
+     "name": "Bein Sports 5",
+     "platforms": [
+      {
+       "name": "Digiturk",
+       "no": "81"
+      },
+      {
+       "name": "Web",
+       "no": null
+      }
+     ]
+    }
+   ],
+   "note": "",
+   "score": null,
+   "status": "scheduled"
+  },
+  {
+   "id": "se497371",
+   "sport": "volleyball",
+   "league": "TVF Efeler Ligi",
+   "national": false,
+   "women": false,
+   "home": "TFL Altekma",
+   "away": "Sultanbeyli Bld.",
+   "start": "2026-12-05T16:00:00+03:00",
+   "channels": [
+    {
+     "name": "TVF Voleybol TV Youtube",
+     "platforms": [
+      {
+       "name": "Web",
+       "no": null
+      },
+      {
+       "name": "Youtube",
+       "no": "Şifresiz"
+      }
+     ]
+    }
+   ],
+   "note": "",
+   "score": null,
+   "status": "scheduled"
+  },
+  {
+   "id": "se497367",
+   "sport": "volleyball",
+   "league": "TVF Efeler Ligi",
+   "national": false,
+   "women": false,
+   "home": "Gaziantep Gençlik",
+   "away": "Spor Toto SK",
+   "start": "2026-12-05T16:00:00+03:00",
+   "channels": [
+    {
+     "name": "TVF Voleybol TV Youtube",
+     "platforms": [
+      {
+       "name": "Web",
+       "no": null
+      },
+      {
+       "name": "Youtube",
+       "no": "Şifresiz"
+      }
+     ]
+    }
+   ],
+   "note": "",
+   "score": null,
+   "status": "scheduled"
+  },
+  {
+   "id": "se497366",
+   "sport": "volleyball",
+   "league": "TVF Efeler Ligi",
+   "national": false,
+   "women": false,
+   "home": "Alanya Bld.",
+   "away": "Galatasaray",
+   "start": "2026-12-05T16:00:00+03:00",
+   "channels": [
+    {
+     "name": "TVF Voleybol TV Youtube",
+     "platforms": [
+      {
+       "name": "Web",
+       "no": null
+      },
+      {
+       "name": "Youtube",
+       "no": "Şifresiz"
+      }
+     ]
+    }
+   ],
+   "note": "",
+   "score": null,
+   "status": "scheduled"
+  },
+  {
+   "id": "se497158",
+   "sport": "football",
+   "league": "Trendyol Süper Lig",
+   "national": false,
+   "women": false,
+   "home": "Amedspor",
+   "away": "Alanyaspor",
+   "start": "2026-12-05T16:00:00+03:00",
+   "channels": [
+    {
+     "name": "Bein Sports 1",
+     "platforms": [
+      {
+       "name": "Digiturk",
+       "no": "77"
+      },
+      {
+       "name": "Web",
+       "no": null
+      }
+     ]
+    }
+   ],
+   "note": "",
+   "score": null,
+   "status": "scheduled"
+  },
+  {
+   "id": "se497368",
+   "sport": "volleyball",
+   "league": "TVF Efeler Ligi",
+   "national": false,
+   "women": false,
+   "home": "İstanbul BB",
+   "away": "Gebze Bld.",
+   "start": "2026-12-05T16:30:00+03:00",
+   "channels": [
+    {
+     "name": "TVF Voleybol TV Youtube",
+     "platforms": [
+      {
+       "name": "Web",
+       "no": null
+      },
+      {
+       "name": "Youtube",
+       "no": "Şifresiz"
+      }
+     ]
+    }
+   ],
+   "note": "",
+   "score": null,
+   "status": "scheduled"
+  },
+  {
+   "id": "se497370",
+   "sport": "volleyball",
+   "league": "TVF Efeler Ligi",
+   "national": false,
+   "women": false,
+   "home": "Fenerbahçe Medicana",
+   "away": "Onikişubat Belediyespor",
+   "start": "2026-12-05T16:30:00+03:00",
+   "channels": [
+    {
+     "name": "TRT Spor Yildiz",
+     "platforms": [
+      {
+       "name": "Digiturk",
+       "no": "87"
+      },
+      {
+       "name": "Kablo TV",
+       "no": "242"
+      },
+      {
+       "name": "Şifresiz",
+       "no": "4A"
+      },
+      {
+       "name": "Tivibu",
+       "no": "85"
+      },
+      {
+       "name": "Web",
+       "no": null
+      },
+      {
+       "name": "Turkcell TV+",
+       "no": "71"
+      }
+     ]
+    }
+   ],
+   "note": "",
+   "score": null,
+   "status": "scheduled"
+  },
+  {
+   "id": "se493821",
+   "sport": "basketball",
+   "league": "Basketbol Süper Ligi",
+   "national": false,
+   "women": false,
+   "home": "Denizli Basket",
+   "away": "Bursaspor",
+   "start": "2026-12-05T18:00:00+03:00",
+   "channels": [
+    {
+     "name": "Bein Sports 5",
+     "platforms": [
+      {
+       "name": "Digiturk",
+       "no": "81"
+      },
+      {
+       "name": "Web",
+       "no": null
+      }
+     ]
+    }
+   ],
+   "note": "",
+   "score": null,
+   "status": "scheduled"
+  },
+  {
+   "id": "se497830",
+   "sport": "basketball",
+   "league": "Kadinlar Basketbol Süper Ligi",
+   "national": false,
+   "women": true,
+   "home": "Turgutlu Bld.",
+   "away": "ÇBK Mersin",
+   "start": "2026-12-05T18:00:00+03:00",
+   "channels": [
+    {
+     "name": "TBF TV Youtube",
+     "platforms": [
+      {
+       "name": "Web",
+       "no": null
+      },
+      {
+       "name": "Youtube",
+       "no": "Şifresiz"
+      }
+     ]
+    }
+   ],
+   "note": "",
+   "score": null,
+   "status": "scheduled"
+  },
+  {
+   "id": "se497365",
+   "sport": "volleyball",
+   "league": "TVF Efeler Ligi",
+   "national": false,
+   "women": false,
+   "home": "Ziraat Bankkart",
+   "away": "Halkbank",
+   "start": "2026-12-05T18:30:00+03:00",
+   "channels": [
+    {
+     "name": "TRT Spor Yildiz",
+     "platforms": [
+      {
+       "name": "Digiturk",
+       "no": "87"
+      },
+      {
+       "name": "Kablo TV",
+       "no": "242"
+      },
+      {
+       "name": "Şifresiz",
+       "no": "4A"
+      },
+      {
+       "name": "Tivibu",
+       "no": "85"
+      },
+      {
+       "name": "Web",
+       "no": null
+      },
+      {
+       "name": "Turkcell TV+",
+       "no": "71"
+      }
+     ]
+    }
+   ],
+   "note": "",
+   "score": null,
+   "status": "scheduled"
+  },
+  {
+   "id": "se497159",
+   "sport": "football",
+   "league": "Trendyol Süper Lig",
+   "national": false,
+   "women": false,
+   "home": "İstanbul Başakşehir",
+   "away": "Fenerbahçe",
+   "start": "2026-12-05T19:00:00+03:00",
+   "channels": [
+    {
+     "name": "Bein Sports 1",
+     "platforms": [
+      {
+       "name": "Digiturk",
+       "no": "77"
+      },
+      {
+       "name": "Web",
+       "no": null
+      }
+     ]
+    }
+   ],
+   "note": "",
+   "score": null,
+   "status": "scheduled"
+  },
+  {
+   "id": "se493822",
+   "sport": "basketball",
+   "league": "Basketbol Süper Ligi",
+   "national": false,
+   "women": false,
+   "home": "Tofaş",
+   "away": "Galatasaray MCT Technic",
+   "start": "2026-12-05T20:30:00+03:00",
+   "channels": [
+    {
+     "name": "Bein Sports 5",
+     "platforms": [
+      {
+       "name": "Digiturk",
+       "no": "81"
       },
       {
        "name": "Web",
