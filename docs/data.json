@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-28T04:52:27+03:00",
+ "generated_at": "2026-11-28T13:10:04+03:00",
  "matches": [
   {
    "id": "se499308",
@@ -519,6 +519,43 @@
    "away": "İlbank",
    "start": "2026-11-29T13:00:00+03:00",
    "channels": [
+    {
+     "name": "FB TV",
+     "platforms": [
+      {
+       "name": "Digiturk",
+       "no": "76"
+      },
+      {
+       "name": "D Smart",
+       "no": "83"
+      },
+      {
+       "name": "Kablo TV",
+       "no": "139"
+      },
+      {
+       "name": "Şifresiz",
+       "no": "4A"
+      },
+      {
+       "name": "Tivibu",
+       "no": "80"
+      },
+      {
+       "name": "Web",
+       "no": null
+      },
+      {
+       "name": "Fil Box",
+       "no": "76"
+      },
+      {
+       "name": "Turkcell TV+",
+       "no": "74"
+      }
+     ]
+    },
     {
      "name": "TVF Voleybol TV Youtube",
      "platforms": [
